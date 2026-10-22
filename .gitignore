@@ -1,0 +1,19 @@
+# Original author's repository (reference only)
+deepkoopformer/
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Secrets
+.env
+.env.*
+
+# Training outputs and large checkpoints
+**/results/**/*.pt
+**/results/**/*.zip
+*.tmp
+datasets/climate/raw/*.nc
