@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset": "Electricity",
+    "model": "PatchTST+LinearLatent",
+    "p": 70,
+    "h": 2,
+    "input_dim": 6,
+    "epochs": 4000,
+    "lr": 0.0003,
+    "seed": 7,
+    "d_model": 96,
+    "lstm_hidden": 96,
+    "lstm_layers": 2,
+    "rho_max": 0.99,
+    "lyap_weight": 0.0,
+    "processed_sha256": "87211f37bca889c8dc34ea5e4ec73a6c8c336504e8a2a0f62b2483e376cd082b",
+    "model_notebook_sha256": "74b449a8ff1b6eb5a6ce0d25c272dc8491973f58aeb3f9295e44c59a4ab49bed"
+  },
+  "epoch": 4000,
+  "train": {
+    "MSE": 0.0010473275424757883,
+    "MAE": 0.020316475017499478,
+    "Samples": 2728
+  },
+  "test": {
+    "MSE": 0.0065404555225346125,
+    "MAE": 0.04878657530956643,
+    "Samples": 628
+  },
+  "elapsed_seconds_this_session": 137.16982886499997,
+  "final_train_loss": 0.0015574510907754302
+}

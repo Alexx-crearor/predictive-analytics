@@ -1,0 +1,16 @@
+{
+  "dataset": "ETTh1",
+  "model": "Linear",
+  "seq_len": 96,
+  "transformations": [
+    "Original",
+    "Shuffle",
+    "Half-Exchange"
+  ],
+  "shuffle_seed": 2026,
+  "shuffle_strategy": "Independent permutation for each Test window; shared across channels and model training seeds",
+  "half_exchange": "Swap the first and second halves of each input window",
+  "application": "Test input only",
+  "targets_modified": false,
+  "retraining": false
+}

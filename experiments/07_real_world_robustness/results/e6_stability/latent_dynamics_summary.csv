@@ -1,0 +1,7 @@
+Dataset,Model,Samples,Rollout_Steps,Energy_Increase_Transitions,Samples_With_Energy_Increase,Max_Relative_Energy,Mean_Final_Relative_Energy
+Electricity,PatchTST+LinearLatent,64,30,0,0,1.0,1.1362652797911604e-15
+Electricity,KoopPatchTST_NoLyap,64,30,0,0,1.0,4.2773119510067896e-18
+Electricity,KoopPatchTST_Full,64,30,0,0,1.0,3.3950382392748808e-18
+CMIP6 Wind,PatchTST+LinearLatent,64,30,0,0,1.0,6.541949938032913e-16
+CMIP6 Wind,KoopPatchTST_NoLyap,64,30,0,0,1.0,8.806283587492809e-16
+CMIP6 Wind,KoopPatchTST_Full,64,30,0,0,1.0,2.4149514935884715e-16

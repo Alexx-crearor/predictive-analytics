@@ -1,0 +1,33 @@
+{
+  "dataset": "ETTh1",
+  "model": "LTSF-Linear",
+  "task": "multivariate_to_multivariate",
+  "seq_len": 96,
+  "pred_lengths": [
+    96,
+    192,
+    336,
+    720
+  ],
+  "channels": 7,
+  "seeds": [
+    7,
+    17,
+    27,
+    37,
+    47
+  ],
+  "training": {
+    "epochs": 10,
+    "batch_size": 32,
+    "learning_rate": 0.005,
+    "patience": 3,
+    "optimizer": "Adam",
+    "loss": "MSE",
+    "lr_schedule": "type1",
+    "individual": false,
+    "num_workers": 0
+  },
+  "source_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+  "protocol_note": "Linear, seq_len=96. LR=0.005 adapted from official ETTh1 DLinear script. Validation uses all windows."
+}

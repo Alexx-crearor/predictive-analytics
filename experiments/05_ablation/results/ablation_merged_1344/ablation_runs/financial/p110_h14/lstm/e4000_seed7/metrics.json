@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset": "Financial",
+    "model": "LSTM",
+    "p": 110,
+    "h": 14,
+    "input_dim": 2,
+    "epochs": 4000,
+    "lr": 0.0003,
+    "seed": 7,
+    "d_model": 96,
+    "lstm_hidden": 96,
+    "lstm_layers": 2,
+    "rho_max": 0.99,
+    "lyap_weight": 0.0,
+    "processed_sha256": "73ee392be68ee6e62b1de2dd6ec7fd631c6e1138f9e7cc0c0f745137a7628fff",
+    "model_notebook_sha256": "74b449a8ff1b6eb5a6ce0d25c272dc8491973f58aeb3f9295e44c59a4ab49bed"
+  },
+  "epoch": 4000,
+  "train": {
+    "MSE": 0.0008767759156028098,
+    "MAE": 0.021359309402726796,
+    "Samples": 2196
+  },
+  "test": {
+    "MSE": 0.022616750026896566,
+    "MAE": 0.12548344134980985,
+    "Samples": 456
+  },
+  "elapsed_seconds_this_session": 397.3842225850003,
+  "final_train_loss": 0.0008741251076571643
+}

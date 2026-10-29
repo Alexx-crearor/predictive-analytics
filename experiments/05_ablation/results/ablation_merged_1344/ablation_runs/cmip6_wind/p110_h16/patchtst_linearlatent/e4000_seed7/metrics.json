@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset": "CMIP6 Wind",
+    "model": "PatchTST+LinearLatent",
+    "p": 110,
+    "h": 16,
+    "input_dim": 5,
+    "epochs": 4000,
+    "lr": 0.0003,
+    "seed": 7,
+    "d_model": 96,
+    "lstm_hidden": 96,
+    "lstm_layers": 2,
+    "rho_max": 0.99,
+    "lyap_weight": 0.0,
+    "processed_sha256": "e7d92f09bb16b13a7ed26189c4ae1ec826fe24fd92376a39ced10c07194494ad",
+    "model_notebook_sha256": "74b449a8ff1b6eb5a6ce0d25c272dc8491973f58aeb3f9295e44c59a4ab49bed"
+  },
+  "epoch": 4000,
+  "train": {
+    "MSE": 0.0038908287049639655,
+    "MAE": 0.04711649819718657,
+    "Samples": 2210
+  },
+  "test": {
+    "MSE": 0.04663935721147747,
+    "MAE": 0.16679607097834234,
+    "Samples": 458
+  },
+  "elapsed_seconds_this_session": 120.61306585099919,
+  "final_train_loss": 0.005427712574601173
+}

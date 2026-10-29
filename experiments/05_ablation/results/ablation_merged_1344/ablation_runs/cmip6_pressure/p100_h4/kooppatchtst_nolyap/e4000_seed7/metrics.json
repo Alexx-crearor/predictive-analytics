@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset": "CMIP6 Pressure",
+    "model": "KoopPatchTST_NoLyap",
+    "p": 100,
+    "h": 4,
+    "input_dim": 5,
+    "epochs": 4000,
+    "lr": 0.0003,
+    "seed": 7,
+    "d_model": 96,
+    "lstm_hidden": 96,
+    "lstm_layers": 2,
+    "rho_max": 0.99,
+    "lyap_weight": 0.0,
+    "processed_sha256": "905bd6ed986ae0142805921cee8b75fdc0cd7f5b0e6100fbad0244ea062e7e02",
+    "model_notebook_sha256": "74b449a8ff1b6eb5a6ce0d25c272dc8491973f58aeb3f9295e44c59a4ab49bed"
+  },
+  "epoch": 4000,
+  "train": {
+    "MSE": 0.0005745459258164275,
+    "MAE": 0.01788110154290892,
+    "Samples": 1896
+  },
+  "test": {
+    "MSE": 0.002642349157807673,
+    "MAE": 0.037097906272369204,
+    "Samples": 396
+  },
+  "elapsed_seconds_this_session": 106.86708816600003,
+  "final_train_loss": 0.0009268053690902889
+}

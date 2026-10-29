@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset": "CMIP6 Wind",
+    "model": "DLinear",
+    "p": 80,
+    "h": 4,
+    "input_dim": 5,
+    "epochs": 4000,
+    "lr": 0.0003,
+    "seed": 7,
+    "d_model": 96,
+    "lstm_hidden": 96,
+    "lstm_layers": 2,
+    "rho_max": 0.99,
+    "lyap_weight": 0.0,
+    "processed_sha256": "e7d92f09bb16b13a7ed26189c4ae1ec826fe24fd92376a39ced10c07194494ad",
+    "model_notebook_sha256": "74b449a8ff1b6eb5a6ce0d25c272dc8491973f58aeb3f9295e44c59a4ab49bed"
+  },
+  "epoch": 4000,
+  "train": {
+    "MSE": 0.023984343467477628,
+    "MAE": 0.12339991571689372,
+    "Samples": 2252
+  },
+  "test": {
+    "MSE": 0.026455315236437144,
+    "MAE": 0.12842942712306976,
+    "Samples": 500
+  },
+  "elapsed_seconds_this_session": 19.66552340000635,
+  "final_train_loss": 0.023984605446457863
+}

@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset": "CMIP6 Wind",
+    "model": "KoopPatchTST_NoLyap",
+    "p": 90,
+    "h": 14,
+    "input_dim": 5,
+    "epochs": 4000,
+    "lr": 0.0003,
+    "seed": 7,
+    "d_model": 96,
+    "lstm_hidden": 96,
+    "lstm_layers": 2,
+    "rho_max": 0.99,
+    "lyap_weight": 0.0,
+    "processed_sha256": "e7d92f09bb16b13a7ed26189c4ae1ec826fe24fd92376a39ced10c07194494ad",
+    "model_notebook_sha256": "74b449a8ff1b6eb5a6ce0d25c272dc8491973f58aeb3f9295e44c59a4ab49bed"
+  },
+  "epoch": 4000,
+  "train": {
+    "MSE": 0.004159527737297946,
+    "MAE": 0.048810082422150944,
+    "Samples": 2232
+  },
+  "test": {
+    "MSE": 0.04238721565827672,
+    "MAE": 0.15628292581171818,
+    "Samples": 480
+  },
+  "elapsed_seconds_this_session": 121.40817319599955,
+  "final_train_loss": 0.005649378057569265
+}

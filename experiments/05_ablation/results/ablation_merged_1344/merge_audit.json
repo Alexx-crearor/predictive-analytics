@@ -1,0 +1,13 @@
+{
+  "expected_runs": 1344,
+  "completed_runs": 1344,
+  "metrics_rows": 2688,
+  "duplicate_conflicts": 0,
+  "flat_artifacts_found": 1344,
+  "flat_artifacts_missing": 0,
+  "selected_source_counts": {
+    "Session_5": 273,
+    "Session_1": 896,
+    "Local_Project": 175
+  }
+}

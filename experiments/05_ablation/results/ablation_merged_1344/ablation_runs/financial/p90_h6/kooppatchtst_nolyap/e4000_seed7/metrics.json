@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset": "Financial",
+    "model": "KoopPatchTST_NoLyap",
+    "p": 90,
+    "h": 6,
+    "input_dim": 2,
+    "epochs": 4000,
+    "lr": 0.0003,
+    "seed": 7,
+    "d_model": 96,
+    "lstm_hidden": 96,
+    "lstm_layers": 2,
+    "rho_max": 0.99,
+    "lyap_weight": 0.0,
+    "processed_sha256": "73ee392be68ee6e62b1de2dd6ec7fd631c6e1138f9e7cc0c0f745137a7628fff",
+    "model_notebook_sha256": "74b449a8ff1b6eb5a6ce0d25c272dc8491973f58aeb3f9295e44c59a4ab49bed"
+  },
+  "epoch": 4000,
+  "train": {
+    "MSE": 0.000855690589260116,
+    "MAE": 0.020554661446250136,
+    "Samples": 2224
+  },
+  "test": {
+    "MSE": 0.0010311287440510184,
+    "MAE": 0.024541564331936442,
+    "Samples": 484
+  },
+  "elapsed_seconds_this_session": 113.92587755999921,
+  "final_train_loss": 0.0012137064477428794
+}

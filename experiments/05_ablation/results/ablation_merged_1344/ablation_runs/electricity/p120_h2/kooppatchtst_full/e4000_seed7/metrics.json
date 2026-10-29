@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset": "Electricity",
+    "model": "KoopPatchTST_Full",
+    "p": 120,
+    "h": 2,
+    "input_dim": 6,
+    "epochs": 4000,
+    "lr": 0.0003,
+    "seed": 7,
+    "d_model": 96,
+    "lstm_hidden": 96,
+    "lstm_layers": 2,
+    "rho_max": 0.99,
+    "lyap_weight": 0.1,
+    "processed_sha256": "87211f37bca889c8dc34ea5e4ec73a6c8c336504e8a2a0f62b2483e376cd082b",
+    "model_notebook_sha256": "74b449a8ff1b6eb5a6ce0d25c272dc8491973f58aeb3f9295e44c59a4ab49bed"
+  },
+  "epoch": 4000,
+  "train": {
+    "MSE": 0.001247490859259223,
+    "MAE": 0.02276917446592722,
+    "Samples": 2678
+  },
+  "test": {
+    "MSE": 0.007690683792078865,
+    "MAE": 0.05896880424467604,
+    "Samples": 578
+  },
+  "elapsed_seconds_this_session": 149.96559719799916,
+  "final_train_loss": 0.0018244681414216757
+}

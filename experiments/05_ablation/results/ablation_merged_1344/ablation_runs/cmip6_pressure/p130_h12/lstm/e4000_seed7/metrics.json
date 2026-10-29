@@ -1,0 +1,32 @@
+{
+  "config": {
+    "dataset": "CMIP6 Pressure",
+    "model": "LSTM",
+    "p": 130,
+    "h": 12,
+    "input_dim": 5,
+    "epochs": 4000,
+    "lr": 0.0003,
+    "seed": 7,
+    "d_model": 96,
+    "lstm_hidden": 96,
+    "lstm_layers": 2,
+    "rho_max": 0.99,
+    "lyap_weight": 0.0,
+    "processed_sha256": "905bd6ed986ae0142805921cee8b75fdc0cd7f5b0e6100fbad0244ea062e7e02",
+    "model_notebook_sha256": "74b449a8ff1b6eb5a6ce0d25c272dc8491973f58aeb3f9295e44c59a4ab49bed"
+  },
+  "epoch": 4000,
+  "train": {
+    "MSE": 0.0012345611624939056,
+    "MAE": 0.026382937761218125,
+    "Samples": 1858
+  },
+  "test": {
+    "MSE": 0.0363175301718079,
+    "MAE": 0.14135949810762202,
+    "Samples": 358
+  },
+  "elapsed_seconds_this_session": 357.30579729300007,
+  "final_train_loss": 0.0013442097697407007
+}
