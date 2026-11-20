@@ -1,0 +1,26 @@
+{
+  "dataset_key": "wind",
+  "dataset": "CMIP6 Wind",
+  "model": "M4",
+  "patch": 120,
+  "horizon": 8,
+  "seed": 7,
+  "test_mse": 0.04369547910857619,
+  "test_mae": 0.16267742378669872,
+  "completed_epochs": 2,
+  "best_epoch": 2,
+  "best_val_mse": 0.03671835790223935,
+  "config": {
+    "epochs": 2,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "lambda_align": 0.1,
+    "ema_decay": 0.99,
+    "max_align_steps": 2,
+    "val_every": 100,
+    "checkpoint_every": 200,
+    "grad_clip": 1.0,
+    "seed": 7
+  },
+  "data_hash": "480a417b38b0fd26782056bd91c48f3a18424f47893167aca64c5d98bccd0119"
+}

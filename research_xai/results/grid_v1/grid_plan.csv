@@ -1,0 +1,1401 @@
+dataset_key,dataset,model,patch,horizon,seed
+energy,Electricity,M0,70,2,7
+energy,Electricity,M0,70,4,7
+energy,Electricity,M0,70,6,7
+energy,Electricity,M0,70,8,7
+energy,Electricity,M0,70,10,7
+energy,Electricity,M0,70,12,7
+energy,Electricity,M0,70,14,7
+energy,Electricity,M0,70,16,7
+energy,Electricity,M0,80,2,7
+energy,Electricity,M0,80,4,7
+energy,Electricity,M0,80,6,7
+energy,Electricity,M0,80,8,7
+energy,Electricity,M0,80,10,7
+energy,Electricity,M0,80,12,7
+energy,Electricity,M0,80,14,7
+energy,Electricity,M0,80,16,7
+energy,Electricity,M0,90,2,7
+energy,Electricity,M0,90,4,7
+energy,Electricity,M0,90,6,7
+energy,Electricity,M0,90,8,7
+energy,Electricity,M0,90,10,7
+energy,Electricity,M0,90,12,7
+energy,Electricity,M0,90,14,7
+energy,Electricity,M0,90,16,7
+energy,Electricity,M0,100,2,7
+energy,Electricity,M0,100,4,7
+energy,Electricity,M0,100,6,7
+energy,Electricity,M0,100,8,7
+energy,Electricity,M0,100,10,7
+energy,Electricity,M0,100,12,7
+energy,Electricity,M0,100,14,7
+energy,Electricity,M0,100,16,7
+energy,Electricity,M0,110,2,7
+energy,Electricity,M0,110,4,7
+energy,Electricity,M0,110,6,7
+energy,Electricity,M0,110,8,7
+energy,Electricity,M0,110,10,7
+energy,Electricity,M0,110,12,7
+energy,Electricity,M0,110,14,7
+energy,Electricity,M0,110,16,7
+energy,Electricity,M0,120,2,7
+energy,Electricity,M0,120,4,7
+energy,Electricity,M0,120,6,7
+energy,Electricity,M0,120,8,7
+energy,Electricity,M0,120,10,7
+energy,Electricity,M0,120,12,7
+energy,Electricity,M0,120,14,7
+energy,Electricity,M0,120,16,7
+energy,Electricity,M0,130,2,7
+energy,Electricity,M0,130,4,7
+energy,Electricity,M0,130,6,7
+energy,Electricity,M0,130,8,7
+energy,Electricity,M0,130,10,7
+energy,Electricity,M0,130,12,7
+energy,Electricity,M0,130,14,7
+energy,Electricity,M0,130,16,7
+energy,Electricity,M1,70,2,7
+energy,Electricity,M1,70,4,7
+energy,Electricity,M1,70,6,7
+energy,Electricity,M1,70,8,7
+energy,Electricity,M1,70,10,7
+energy,Electricity,M1,70,12,7
+energy,Electricity,M1,70,14,7
+energy,Electricity,M1,70,16,7
+energy,Electricity,M1,80,2,7
+energy,Electricity,M1,80,4,7
+energy,Electricity,M1,80,6,7
+energy,Electricity,M1,80,8,7
+energy,Electricity,M1,80,10,7
+energy,Electricity,M1,80,12,7
+energy,Electricity,M1,80,14,7
+energy,Electricity,M1,80,16,7
+energy,Electricity,M1,90,2,7
+energy,Electricity,M1,90,4,7
+energy,Electricity,M1,90,6,7
+energy,Electricity,M1,90,8,7
+energy,Electricity,M1,90,10,7
+energy,Electricity,M1,90,12,7
+energy,Electricity,M1,90,14,7
+energy,Electricity,M1,90,16,7
+energy,Electricity,M1,100,2,7
+energy,Electricity,M1,100,4,7
+energy,Electricity,M1,100,6,7
+energy,Electricity,M1,100,8,7
+energy,Electricity,M1,100,10,7
+energy,Electricity,M1,100,12,7
+energy,Electricity,M1,100,14,7
+energy,Electricity,M1,100,16,7
+energy,Electricity,M1,110,2,7
+energy,Electricity,M1,110,4,7
+energy,Electricity,M1,110,6,7
+energy,Electricity,M1,110,8,7
+energy,Electricity,M1,110,10,7
+energy,Electricity,M1,110,12,7
+energy,Electricity,M1,110,14,7
+energy,Electricity,M1,110,16,7
+energy,Electricity,M1,120,2,7
+energy,Electricity,M1,120,4,7
+energy,Electricity,M1,120,6,7
+energy,Electricity,M1,120,8,7
+energy,Electricity,M1,120,10,7
+energy,Electricity,M1,120,12,7
+energy,Electricity,M1,120,14,7
+energy,Electricity,M1,120,16,7
+energy,Electricity,M1,130,2,7
+energy,Electricity,M1,130,4,7
+energy,Electricity,M1,130,6,7
+energy,Electricity,M1,130,8,7
+energy,Electricity,M1,130,10,7
+energy,Electricity,M1,130,12,7
+energy,Electricity,M1,130,14,7
+energy,Electricity,M1,130,16,7
+energy,Electricity,M2,70,2,7
+energy,Electricity,M2,70,4,7
+energy,Electricity,M2,70,6,7
+energy,Electricity,M2,70,8,7
+energy,Electricity,M2,70,10,7
+energy,Electricity,M2,70,12,7
+energy,Electricity,M2,70,14,7
+energy,Electricity,M2,70,16,7
+energy,Electricity,M2,80,2,7
+energy,Electricity,M2,80,4,7
+energy,Electricity,M2,80,6,7
+energy,Electricity,M2,80,8,7
+energy,Electricity,M2,80,10,7
+energy,Electricity,M2,80,12,7
+energy,Electricity,M2,80,14,7
+energy,Electricity,M2,80,16,7
+energy,Electricity,M2,90,2,7
+energy,Electricity,M2,90,4,7
+energy,Electricity,M2,90,6,7
+energy,Electricity,M2,90,8,7
+energy,Electricity,M2,90,10,7
+energy,Electricity,M2,90,12,7
+energy,Electricity,M2,90,14,7
+energy,Electricity,M2,90,16,7
+energy,Electricity,M2,100,2,7
+energy,Electricity,M2,100,4,7
+energy,Electricity,M2,100,6,7
+energy,Electricity,M2,100,8,7
+energy,Electricity,M2,100,10,7
+energy,Electricity,M2,100,12,7
+energy,Electricity,M2,100,14,7
+energy,Electricity,M2,100,16,7
+energy,Electricity,M2,110,2,7
+energy,Electricity,M2,110,4,7
+energy,Electricity,M2,110,6,7
+energy,Electricity,M2,110,8,7
+energy,Electricity,M2,110,10,7
+energy,Electricity,M2,110,12,7
+energy,Electricity,M2,110,14,7
+energy,Electricity,M2,110,16,7
+energy,Electricity,M2,120,2,7
+energy,Electricity,M2,120,4,7
+energy,Electricity,M2,120,6,7
+energy,Electricity,M2,120,8,7
+energy,Electricity,M2,120,10,7
+energy,Electricity,M2,120,12,7
+energy,Electricity,M2,120,14,7
+energy,Electricity,M2,120,16,7
+energy,Electricity,M2,130,2,7
+energy,Electricity,M2,130,4,7
+energy,Electricity,M2,130,6,7
+energy,Electricity,M2,130,8,7
+energy,Electricity,M2,130,10,7
+energy,Electricity,M2,130,12,7
+energy,Electricity,M2,130,14,7
+energy,Electricity,M2,130,16,7
+energy,Electricity,M3,70,2,7
+energy,Electricity,M3,70,4,7
+energy,Electricity,M3,70,6,7
+energy,Electricity,M3,70,8,7
+energy,Electricity,M3,70,10,7
+energy,Electricity,M3,70,12,7
+energy,Electricity,M3,70,14,7
+energy,Electricity,M3,70,16,7
+energy,Electricity,M3,80,2,7
+energy,Electricity,M3,80,4,7
+energy,Electricity,M3,80,6,7
+energy,Electricity,M3,80,8,7
+energy,Electricity,M3,80,10,7
+energy,Electricity,M3,80,12,7
+energy,Electricity,M3,80,14,7
+energy,Electricity,M3,80,16,7
+energy,Electricity,M3,90,2,7
+energy,Electricity,M3,90,4,7
+energy,Electricity,M3,90,6,7
+energy,Electricity,M3,90,8,7
+energy,Electricity,M3,90,10,7
+energy,Electricity,M3,90,12,7
+energy,Electricity,M3,90,14,7
+energy,Electricity,M3,90,16,7
+energy,Electricity,M3,100,2,7
+energy,Electricity,M3,100,4,7
+energy,Electricity,M3,100,6,7
+energy,Electricity,M3,100,8,7
+energy,Electricity,M3,100,10,7
+energy,Electricity,M3,100,12,7
+energy,Electricity,M3,100,14,7
+energy,Electricity,M3,100,16,7
+energy,Electricity,M3,110,2,7
+energy,Electricity,M3,110,4,7
+energy,Electricity,M3,110,6,7
+energy,Electricity,M3,110,8,7
+energy,Electricity,M3,110,10,7
+energy,Electricity,M3,110,12,7
+energy,Electricity,M3,110,14,7
+energy,Electricity,M3,110,16,7
+energy,Electricity,M3,120,2,7
+energy,Electricity,M3,120,4,7
+energy,Electricity,M3,120,6,7
+energy,Electricity,M3,120,8,7
+energy,Electricity,M3,120,10,7
+energy,Electricity,M3,120,12,7
+energy,Electricity,M3,120,14,7
+energy,Electricity,M3,120,16,7
+energy,Electricity,M3,130,2,7
+energy,Electricity,M3,130,4,7
+energy,Electricity,M3,130,6,7
+energy,Electricity,M3,130,8,7
+energy,Electricity,M3,130,10,7
+energy,Electricity,M3,130,12,7
+energy,Electricity,M3,130,14,7
+energy,Electricity,M3,130,16,7
+energy,Electricity,M4,70,2,7
+energy,Electricity,M4,70,4,7
+energy,Electricity,M4,70,6,7
+energy,Electricity,M4,70,8,7
+energy,Electricity,M4,70,10,7
+energy,Electricity,M4,70,12,7
+energy,Electricity,M4,70,14,7
+energy,Electricity,M4,70,16,7
+energy,Electricity,M4,80,2,7
+energy,Electricity,M4,80,4,7
+energy,Electricity,M4,80,6,7
+energy,Electricity,M4,80,8,7
+energy,Electricity,M4,80,10,7
+energy,Electricity,M4,80,12,7
+energy,Electricity,M4,80,14,7
+energy,Electricity,M4,80,16,7
+energy,Electricity,M4,90,2,7
+energy,Electricity,M4,90,4,7
+energy,Electricity,M4,90,6,7
+energy,Electricity,M4,90,8,7
+energy,Electricity,M4,90,10,7
+energy,Electricity,M4,90,12,7
+energy,Electricity,M4,90,14,7
+energy,Electricity,M4,90,16,7
+energy,Electricity,M4,100,2,7
+energy,Electricity,M4,100,4,7
+energy,Electricity,M4,100,6,7
+energy,Electricity,M4,100,8,7
+energy,Electricity,M4,100,10,7
+energy,Electricity,M4,100,12,7
+energy,Electricity,M4,100,14,7
+energy,Electricity,M4,100,16,7
+energy,Electricity,M4,110,2,7
+energy,Electricity,M4,110,4,7
+energy,Electricity,M4,110,6,7
+energy,Electricity,M4,110,8,7
+energy,Electricity,M4,110,10,7
+energy,Electricity,M4,110,12,7
+energy,Electricity,M4,110,14,7
+energy,Electricity,M4,110,16,7
+energy,Electricity,M4,120,2,7
+energy,Electricity,M4,120,4,7
+energy,Electricity,M4,120,6,7
+energy,Electricity,M4,120,8,7
+energy,Electricity,M4,120,10,7
+energy,Electricity,M4,120,12,7
+energy,Electricity,M4,120,14,7
+energy,Electricity,M4,120,16,7
+energy,Electricity,M4,130,2,7
+energy,Electricity,M4,130,4,7
+energy,Electricity,M4,130,6,7
+energy,Electricity,M4,130,8,7
+energy,Electricity,M4,130,10,7
+energy,Electricity,M4,130,12,7
+energy,Electricity,M4,130,14,7
+energy,Electricity,M4,130,16,7
+financial,Financial,M0,70,2,7
+financial,Financial,M0,70,4,7
+financial,Financial,M0,70,6,7
+financial,Financial,M0,70,8,7
+financial,Financial,M0,70,10,7
+financial,Financial,M0,70,12,7
+financial,Financial,M0,70,14,7
+financial,Financial,M0,70,16,7
+financial,Financial,M0,80,2,7
+financial,Financial,M0,80,4,7
+financial,Financial,M0,80,6,7
+financial,Financial,M0,80,8,7
+financial,Financial,M0,80,10,7
+financial,Financial,M0,80,12,7
+financial,Financial,M0,80,14,7
+financial,Financial,M0,80,16,7
+financial,Financial,M0,90,2,7
+financial,Financial,M0,90,4,7
+financial,Financial,M0,90,6,7
+financial,Financial,M0,90,8,7
+financial,Financial,M0,90,10,7
+financial,Financial,M0,90,12,7
+financial,Financial,M0,90,14,7
+financial,Financial,M0,90,16,7
+financial,Financial,M0,100,2,7
+financial,Financial,M0,100,4,7
+financial,Financial,M0,100,6,7
+financial,Financial,M0,100,8,7
+financial,Financial,M0,100,10,7
+financial,Financial,M0,100,12,7
+financial,Financial,M0,100,14,7
+financial,Financial,M0,100,16,7
+financial,Financial,M0,110,2,7
+financial,Financial,M0,110,4,7
+financial,Financial,M0,110,6,7
+financial,Financial,M0,110,8,7
+financial,Financial,M0,110,10,7
+financial,Financial,M0,110,12,7
+financial,Financial,M0,110,14,7
+financial,Financial,M0,110,16,7
+financial,Financial,M0,120,2,7
+financial,Financial,M0,120,4,7
+financial,Financial,M0,120,6,7
+financial,Financial,M0,120,8,7
+financial,Financial,M0,120,10,7
+financial,Financial,M0,120,12,7
+financial,Financial,M0,120,14,7
+financial,Financial,M0,120,16,7
+financial,Financial,M0,130,2,7
+financial,Financial,M0,130,4,7
+financial,Financial,M0,130,6,7
+financial,Financial,M0,130,8,7
+financial,Financial,M0,130,10,7
+financial,Financial,M0,130,12,7
+financial,Financial,M0,130,14,7
+financial,Financial,M0,130,16,7
+financial,Financial,M1,70,2,7
+financial,Financial,M1,70,4,7
+financial,Financial,M1,70,6,7
+financial,Financial,M1,70,8,7
+financial,Financial,M1,70,10,7
+financial,Financial,M1,70,12,7
+financial,Financial,M1,70,14,7
+financial,Financial,M1,70,16,7
+financial,Financial,M1,80,2,7
+financial,Financial,M1,80,4,7
+financial,Financial,M1,80,6,7
+financial,Financial,M1,80,8,7
+financial,Financial,M1,80,10,7
+financial,Financial,M1,80,12,7
+financial,Financial,M1,80,14,7
+financial,Financial,M1,80,16,7
+financial,Financial,M1,90,2,7
+financial,Financial,M1,90,4,7
+financial,Financial,M1,90,6,7
+financial,Financial,M1,90,8,7
+financial,Financial,M1,90,10,7
+financial,Financial,M1,90,12,7
+financial,Financial,M1,90,14,7
+financial,Financial,M1,90,16,7
+financial,Financial,M1,100,2,7
+financial,Financial,M1,100,4,7
+financial,Financial,M1,100,6,7
+financial,Financial,M1,100,8,7
+financial,Financial,M1,100,10,7
+financial,Financial,M1,100,12,7
+financial,Financial,M1,100,14,7
+financial,Financial,M1,100,16,7
+financial,Financial,M1,110,2,7
+financial,Financial,M1,110,4,7
+financial,Financial,M1,110,6,7
+financial,Financial,M1,110,8,7
+financial,Financial,M1,110,10,7
+financial,Financial,M1,110,12,7
+financial,Financial,M1,110,14,7
+financial,Financial,M1,110,16,7
+financial,Financial,M1,120,2,7
+financial,Financial,M1,120,4,7
+financial,Financial,M1,120,6,7
+financial,Financial,M1,120,8,7
+financial,Financial,M1,120,10,7
+financial,Financial,M1,120,12,7
+financial,Financial,M1,120,14,7
+financial,Financial,M1,120,16,7
+financial,Financial,M1,130,2,7
+financial,Financial,M1,130,4,7
+financial,Financial,M1,130,6,7
+financial,Financial,M1,130,8,7
+financial,Financial,M1,130,10,7
+financial,Financial,M1,130,12,7
+financial,Financial,M1,130,14,7
+financial,Financial,M1,130,16,7
+financial,Financial,M2,70,2,7
+financial,Financial,M2,70,4,7
+financial,Financial,M2,70,6,7
+financial,Financial,M2,70,8,7
+financial,Financial,M2,70,10,7
+financial,Financial,M2,70,12,7
+financial,Financial,M2,70,14,7
+financial,Financial,M2,70,16,7
+financial,Financial,M2,80,2,7
+financial,Financial,M2,80,4,7
+financial,Financial,M2,80,6,7
+financial,Financial,M2,80,8,7
+financial,Financial,M2,80,10,7
+financial,Financial,M2,80,12,7
+financial,Financial,M2,80,14,7
+financial,Financial,M2,80,16,7
+financial,Financial,M2,90,2,7
+financial,Financial,M2,90,4,7
+financial,Financial,M2,90,6,7
+financial,Financial,M2,90,8,7
+financial,Financial,M2,90,10,7
+financial,Financial,M2,90,12,7
+financial,Financial,M2,90,14,7
+financial,Financial,M2,90,16,7
+financial,Financial,M2,100,2,7
+financial,Financial,M2,100,4,7
+financial,Financial,M2,100,6,7
+financial,Financial,M2,100,8,7
+financial,Financial,M2,100,10,7
+financial,Financial,M2,100,12,7
+financial,Financial,M2,100,14,7
+financial,Financial,M2,100,16,7
+financial,Financial,M2,110,2,7
+financial,Financial,M2,110,4,7
+financial,Financial,M2,110,6,7
+financial,Financial,M2,110,8,7
+financial,Financial,M2,110,10,7
+financial,Financial,M2,110,12,7
+financial,Financial,M2,110,14,7
+financial,Financial,M2,110,16,7
+financial,Financial,M2,120,2,7
+financial,Financial,M2,120,4,7
+financial,Financial,M2,120,6,7
+financial,Financial,M2,120,8,7
+financial,Financial,M2,120,10,7
+financial,Financial,M2,120,12,7
+financial,Financial,M2,120,14,7
+financial,Financial,M2,120,16,7
+financial,Financial,M2,130,2,7
+financial,Financial,M2,130,4,7
+financial,Financial,M2,130,6,7
+financial,Financial,M2,130,8,7
+financial,Financial,M2,130,10,7
+financial,Financial,M2,130,12,7
+financial,Financial,M2,130,14,7
+financial,Financial,M2,130,16,7
+financial,Financial,M3,70,2,7
+financial,Financial,M3,70,4,7
+financial,Financial,M3,70,6,7
+financial,Financial,M3,70,8,7
+financial,Financial,M3,70,10,7
+financial,Financial,M3,70,12,7
+financial,Financial,M3,70,14,7
+financial,Financial,M3,70,16,7
+financial,Financial,M3,80,2,7
+financial,Financial,M3,80,4,7
+financial,Financial,M3,80,6,7
+financial,Financial,M3,80,8,7
+financial,Financial,M3,80,10,7
+financial,Financial,M3,80,12,7
+financial,Financial,M3,80,14,7
+financial,Financial,M3,80,16,7
+financial,Financial,M3,90,2,7
+financial,Financial,M3,90,4,7
+financial,Financial,M3,90,6,7
+financial,Financial,M3,90,8,7
+financial,Financial,M3,90,10,7
+financial,Financial,M3,90,12,7
+financial,Financial,M3,90,14,7
+financial,Financial,M3,90,16,7
+financial,Financial,M3,100,2,7
+financial,Financial,M3,100,4,7
+financial,Financial,M3,100,6,7
+financial,Financial,M3,100,8,7
+financial,Financial,M3,100,10,7
+financial,Financial,M3,100,12,7
+financial,Financial,M3,100,14,7
+financial,Financial,M3,100,16,7
+financial,Financial,M3,110,2,7
+financial,Financial,M3,110,4,7
+financial,Financial,M3,110,6,7
+financial,Financial,M3,110,8,7
+financial,Financial,M3,110,10,7
+financial,Financial,M3,110,12,7
+financial,Financial,M3,110,14,7
+financial,Financial,M3,110,16,7
+financial,Financial,M3,120,2,7
+financial,Financial,M3,120,4,7
+financial,Financial,M3,120,6,7
+financial,Financial,M3,120,8,7
+financial,Financial,M3,120,10,7
+financial,Financial,M3,120,12,7
+financial,Financial,M3,120,14,7
+financial,Financial,M3,120,16,7
+financial,Financial,M3,130,2,7
+financial,Financial,M3,130,4,7
+financial,Financial,M3,130,6,7
+financial,Financial,M3,130,8,7
+financial,Financial,M3,130,10,7
+financial,Financial,M3,130,12,7
+financial,Financial,M3,130,14,7
+financial,Financial,M3,130,16,7
+financial,Financial,M4,70,2,7
+financial,Financial,M4,70,4,7
+financial,Financial,M4,70,6,7
+financial,Financial,M4,70,8,7
+financial,Financial,M4,70,10,7
+financial,Financial,M4,70,12,7
+financial,Financial,M4,70,14,7
+financial,Financial,M4,70,16,7
+financial,Financial,M4,80,2,7
+financial,Financial,M4,80,4,7
+financial,Financial,M4,80,6,7
+financial,Financial,M4,80,8,7
+financial,Financial,M4,80,10,7
+financial,Financial,M4,80,12,7
+financial,Financial,M4,80,14,7
+financial,Financial,M4,80,16,7
+financial,Financial,M4,90,2,7
+financial,Financial,M4,90,4,7
+financial,Financial,M4,90,6,7
+financial,Financial,M4,90,8,7
+financial,Financial,M4,90,10,7
+financial,Financial,M4,90,12,7
+financial,Financial,M4,90,14,7
+financial,Financial,M4,90,16,7
+financial,Financial,M4,100,2,7
+financial,Financial,M4,100,4,7
+financial,Financial,M4,100,6,7
+financial,Financial,M4,100,8,7
+financial,Financial,M4,100,10,7
+financial,Financial,M4,100,12,7
+financial,Financial,M4,100,14,7
+financial,Financial,M4,100,16,7
+financial,Financial,M4,110,2,7
+financial,Financial,M4,110,4,7
+financial,Financial,M4,110,6,7
+financial,Financial,M4,110,8,7
+financial,Financial,M4,110,10,7
+financial,Financial,M4,110,12,7
+financial,Financial,M4,110,14,7
+financial,Financial,M4,110,16,7
+financial,Financial,M4,120,2,7
+financial,Financial,M4,120,4,7
+financial,Financial,M4,120,6,7
+financial,Financial,M4,120,8,7
+financial,Financial,M4,120,10,7
+financial,Financial,M4,120,12,7
+financial,Financial,M4,120,14,7
+financial,Financial,M4,120,16,7
+financial,Financial,M4,130,2,7
+financial,Financial,M4,130,4,7
+financial,Financial,M4,130,6,7
+financial,Financial,M4,130,8,7
+financial,Financial,M4,130,10,7
+financial,Financial,M4,130,12,7
+financial,Financial,M4,130,14,7
+financial,Financial,M4,130,16,7
+wind,CMIP6 Wind,M0,70,2,7
+wind,CMIP6 Wind,M0,70,4,7
+wind,CMIP6 Wind,M0,70,6,7
+wind,CMIP6 Wind,M0,70,8,7
+wind,CMIP6 Wind,M0,70,10,7
+wind,CMIP6 Wind,M0,70,12,7
+wind,CMIP6 Wind,M0,70,14,7
+wind,CMIP6 Wind,M0,70,16,7
+wind,CMIP6 Wind,M0,80,2,7
+wind,CMIP6 Wind,M0,80,4,7
+wind,CMIP6 Wind,M0,80,6,7
+wind,CMIP6 Wind,M0,80,8,7
+wind,CMIP6 Wind,M0,80,10,7
+wind,CMIP6 Wind,M0,80,12,7
+wind,CMIP6 Wind,M0,80,14,7
+wind,CMIP6 Wind,M0,80,16,7
+wind,CMIP6 Wind,M0,90,2,7
+wind,CMIP6 Wind,M0,90,4,7
+wind,CMIP6 Wind,M0,90,6,7
+wind,CMIP6 Wind,M0,90,8,7
+wind,CMIP6 Wind,M0,90,10,7
+wind,CMIP6 Wind,M0,90,12,7
+wind,CMIP6 Wind,M0,90,14,7
+wind,CMIP6 Wind,M0,90,16,7
+wind,CMIP6 Wind,M0,100,2,7
+wind,CMIP6 Wind,M0,100,4,7
+wind,CMIP6 Wind,M0,100,6,7
+wind,CMIP6 Wind,M0,100,8,7
+wind,CMIP6 Wind,M0,100,10,7
+wind,CMIP6 Wind,M0,100,12,7
+wind,CMIP6 Wind,M0,100,14,7
+wind,CMIP6 Wind,M0,100,16,7
+wind,CMIP6 Wind,M0,110,2,7
+wind,CMIP6 Wind,M0,110,4,7
+wind,CMIP6 Wind,M0,110,6,7
+wind,CMIP6 Wind,M0,110,8,7
+wind,CMIP6 Wind,M0,110,10,7
+wind,CMIP6 Wind,M0,110,12,7
+wind,CMIP6 Wind,M0,110,14,7
+wind,CMIP6 Wind,M0,110,16,7
+wind,CMIP6 Wind,M0,120,2,7
+wind,CMIP6 Wind,M0,120,4,7
+wind,CMIP6 Wind,M0,120,6,7
+wind,CMIP6 Wind,M0,120,8,7
+wind,CMIP6 Wind,M0,120,10,7
+wind,CMIP6 Wind,M0,120,12,7
+wind,CMIP6 Wind,M0,120,14,7
+wind,CMIP6 Wind,M0,120,16,7
+wind,CMIP6 Wind,M0,130,2,7
+wind,CMIP6 Wind,M0,130,4,7
+wind,CMIP6 Wind,M0,130,6,7
+wind,CMIP6 Wind,M0,130,8,7
+wind,CMIP6 Wind,M0,130,10,7
+wind,CMIP6 Wind,M0,130,12,7
+wind,CMIP6 Wind,M0,130,14,7
+wind,CMIP6 Wind,M0,130,16,7
+wind,CMIP6 Wind,M1,70,2,7
+wind,CMIP6 Wind,M1,70,4,7
+wind,CMIP6 Wind,M1,70,6,7
+wind,CMIP6 Wind,M1,70,8,7
+wind,CMIP6 Wind,M1,70,10,7
+wind,CMIP6 Wind,M1,70,12,7
+wind,CMIP6 Wind,M1,70,14,7
+wind,CMIP6 Wind,M1,70,16,7
+wind,CMIP6 Wind,M1,80,2,7
+wind,CMIP6 Wind,M1,80,4,7
+wind,CMIP6 Wind,M1,80,6,7
+wind,CMIP6 Wind,M1,80,8,7
+wind,CMIP6 Wind,M1,80,10,7
+wind,CMIP6 Wind,M1,80,12,7
+wind,CMIP6 Wind,M1,80,14,7
+wind,CMIP6 Wind,M1,80,16,7
+wind,CMIP6 Wind,M1,90,2,7
+wind,CMIP6 Wind,M1,90,4,7
+wind,CMIP6 Wind,M1,90,6,7
+wind,CMIP6 Wind,M1,90,8,7
+wind,CMIP6 Wind,M1,90,10,7
+wind,CMIP6 Wind,M1,90,12,7
+wind,CMIP6 Wind,M1,90,14,7
+wind,CMIP6 Wind,M1,90,16,7
+wind,CMIP6 Wind,M1,100,2,7
+wind,CMIP6 Wind,M1,100,4,7
+wind,CMIP6 Wind,M1,100,6,7
+wind,CMIP6 Wind,M1,100,8,7
+wind,CMIP6 Wind,M1,100,10,7
+wind,CMIP6 Wind,M1,100,12,7
+wind,CMIP6 Wind,M1,100,14,7
+wind,CMIP6 Wind,M1,100,16,7
+wind,CMIP6 Wind,M1,110,2,7
+wind,CMIP6 Wind,M1,110,4,7
+wind,CMIP6 Wind,M1,110,6,7
+wind,CMIP6 Wind,M1,110,8,7
+wind,CMIP6 Wind,M1,110,10,7
+wind,CMIP6 Wind,M1,110,12,7
+wind,CMIP6 Wind,M1,110,14,7
+wind,CMIP6 Wind,M1,110,16,7
+wind,CMIP6 Wind,M1,120,2,7
+wind,CMIP6 Wind,M1,120,4,7
+wind,CMIP6 Wind,M1,120,6,7
+wind,CMIP6 Wind,M1,120,8,7
+wind,CMIP6 Wind,M1,120,10,7
+wind,CMIP6 Wind,M1,120,12,7
+wind,CMIP6 Wind,M1,120,14,7
+wind,CMIP6 Wind,M1,120,16,7
+wind,CMIP6 Wind,M1,130,2,7
+wind,CMIP6 Wind,M1,130,4,7
+wind,CMIP6 Wind,M1,130,6,7
+wind,CMIP6 Wind,M1,130,8,7
+wind,CMIP6 Wind,M1,130,10,7
+wind,CMIP6 Wind,M1,130,12,7
+wind,CMIP6 Wind,M1,130,14,7
+wind,CMIP6 Wind,M1,130,16,7
+wind,CMIP6 Wind,M2,70,2,7
+wind,CMIP6 Wind,M2,70,4,7
+wind,CMIP6 Wind,M2,70,6,7
+wind,CMIP6 Wind,M2,70,8,7
+wind,CMIP6 Wind,M2,70,10,7
+wind,CMIP6 Wind,M2,70,12,7
+wind,CMIP6 Wind,M2,70,14,7
+wind,CMIP6 Wind,M2,70,16,7
+wind,CMIP6 Wind,M2,80,2,7
+wind,CMIP6 Wind,M2,80,4,7
+wind,CMIP6 Wind,M2,80,6,7
+wind,CMIP6 Wind,M2,80,8,7
+wind,CMIP6 Wind,M2,80,10,7
+wind,CMIP6 Wind,M2,80,12,7
+wind,CMIP6 Wind,M2,80,14,7
+wind,CMIP6 Wind,M2,80,16,7
+wind,CMIP6 Wind,M2,90,2,7
+wind,CMIP6 Wind,M2,90,4,7
+wind,CMIP6 Wind,M2,90,6,7
+wind,CMIP6 Wind,M2,90,8,7
+wind,CMIP6 Wind,M2,90,10,7
+wind,CMIP6 Wind,M2,90,12,7
+wind,CMIP6 Wind,M2,90,14,7
+wind,CMIP6 Wind,M2,90,16,7
+wind,CMIP6 Wind,M2,100,2,7
+wind,CMIP6 Wind,M2,100,4,7
+wind,CMIP6 Wind,M2,100,6,7
+wind,CMIP6 Wind,M2,100,8,7
+wind,CMIP6 Wind,M2,100,10,7
+wind,CMIP6 Wind,M2,100,12,7
+wind,CMIP6 Wind,M2,100,14,7
+wind,CMIP6 Wind,M2,100,16,7
+wind,CMIP6 Wind,M2,110,2,7
+wind,CMIP6 Wind,M2,110,4,7
+wind,CMIP6 Wind,M2,110,6,7
+wind,CMIP6 Wind,M2,110,8,7
+wind,CMIP6 Wind,M2,110,10,7
+wind,CMIP6 Wind,M2,110,12,7
+wind,CMIP6 Wind,M2,110,14,7
+wind,CMIP6 Wind,M2,110,16,7
+wind,CMIP6 Wind,M2,120,2,7
+wind,CMIP6 Wind,M2,120,4,7
+wind,CMIP6 Wind,M2,120,6,7
+wind,CMIP6 Wind,M2,120,8,7
+wind,CMIP6 Wind,M2,120,10,7
+wind,CMIP6 Wind,M2,120,12,7
+wind,CMIP6 Wind,M2,120,14,7
+wind,CMIP6 Wind,M2,120,16,7
+wind,CMIP6 Wind,M2,130,2,7
+wind,CMIP6 Wind,M2,130,4,7
+wind,CMIP6 Wind,M2,130,6,7
+wind,CMIP6 Wind,M2,130,8,7
+wind,CMIP6 Wind,M2,130,10,7
+wind,CMIP6 Wind,M2,130,12,7
+wind,CMIP6 Wind,M2,130,14,7
+wind,CMIP6 Wind,M2,130,16,7
+wind,CMIP6 Wind,M3,70,2,7
+wind,CMIP6 Wind,M3,70,4,7
+wind,CMIP6 Wind,M3,70,6,7
+wind,CMIP6 Wind,M3,70,8,7
+wind,CMIP6 Wind,M3,70,10,7
+wind,CMIP6 Wind,M3,70,12,7
+wind,CMIP6 Wind,M3,70,14,7
+wind,CMIP6 Wind,M3,70,16,7
+wind,CMIP6 Wind,M3,80,2,7
+wind,CMIP6 Wind,M3,80,4,7
+wind,CMIP6 Wind,M3,80,6,7
+wind,CMIP6 Wind,M3,80,8,7
+wind,CMIP6 Wind,M3,80,10,7
+wind,CMIP6 Wind,M3,80,12,7
+wind,CMIP6 Wind,M3,80,14,7
+wind,CMIP6 Wind,M3,80,16,7
+wind,CMIP6 Wind,M3,90,2,7
+wind,CMIP6 Wind,M3,90,4,7
+wind,CMIP6 Wind,M3,90,6,7
+wind,CMIP6 Wind,M3,90,8,7
+wind,CMIP6 Wind,M3,90,10,7
+wind,CMIP6 Wind,M3,90,12,7
+wind,CMIP6 Wind,M3,90,14,7
+wind,CMIP6 Wind,M3,90,16,7
+wind,CMIP6 Wind,M3,100,2,7
+wind,CMIP6 Wind,M3,100,4,7
+wind,CMIP6 Wind,M3,100,6,7
+wind,CMIP6 Wind,M3,100,8,7
+wind,CMIP6 Wind,M3,100,10,7
+wind,CMIP6 Wind,M3,100,12,7
+wind,CMIP6 Wind,M3,100,14,7
+wind,CMIP6 Wind,M3,100,16,7
+wind,CMIP6 Wind,M3,110,2,7
+wind,CMIP6 Wind,M3,110,4,7
+wind,CMIP6 Wind,M3,110,6,7
+wind,CMIP6 Wind,M3,110,8,7
+wind,CMIP6 Wind,M3,110,10,7
+wind,CMIP6 Wind,M3,110,12,7
+wind,CMIP6 Wind,M3,110,14,7
+wind,CMIP6 Wind,M3,110,16,7
+wind,CMIP6 Wind,M3,120,2,7
+wind,CMIP6 Wind,M3,120,4,7
+wind,CMIP6 Wind,M3,120,6,7
+wind,CMIP6 Wind,M3,120,8,7
+wind,CMIP6 Wind,M3,120,10,7
+wind,CMIP6 Wind,M3,120,12,7
+wind,CMIP6 Wind,M3,120,14,7
+wind,CMIP6 Wind,M3,120,16,7
+wind,CMIP6 Wind,M3,130,2,7
+wind,CMIP6 Wind,M3,130,4,7
+wind,CMIP6 Wind,M3,130,6,7
+wind,CMIP6 Wind,M3,130,8,7
+wind,CMIP6 Wind,M3,130,10,7
+wind,CMIP6 Wind,M3,130,12,7
+wind,CMIP6 Wind,M3,130,14,7
+wind,CMIP6 Wind,M3,130,16,7
+wind,CMIP6 Wind,M4,70,2,7
+wind,CMIP6 Wind,M4,70,4,7
+wind,CMIP6 Wind,M4,70,6,7
+wind,CMIP6 Wind,M4,70,8,7
+wind,CMIP6 Wind,M4,70,10,7
+wind,CMIP6 Wind,M4,70,12,7
+wind,CMIP6 Wind,M4,70,14,7
+wind,CMIP6 Wind,M4,70,16,7
+wind,CMIP6 Wind,M4,80,2,7
+wind,CMIP6 Wind,M4,80,4,7
+wind,CMIP6 Wind,M4,80,6,7
+wind,CMIP6 Wind,M4,80,8,7
+wind,CMIP6 Wind,M4,80,10,7
+wind,CMIP6 Wind,M4,80,12,7
+wind,CMIP6 Wind,M4,80,14,7
+wind,CMIP6 Wind,M4,80,16,7
+wind,CMIP6 Wind,M4,90,2,7
+wind,CMIP6 Wind,M4,90,4,7
+wind,CMIP6 Wind,M4,90,6,7
+wind,CMIP6 Wind,M4,90,8,7
+wind,CMIP6 Wind,M4,90,10,7
+wind,CMIP6 Wind,M4,90,12,7
+wind,CMIP6 Wind,M4,90,14,7
+wind,CMIP6 Wind,M4,90,16,7
+wind,CMIP6 Wind,M4,100,2,7
+wind,CMIP6 Wind,M4,100,4,7
+wind,CMIP6 Wind,M4,100,6,7
+wind,CMIP6 Wind,M4,100,8,7
+wind,CMIP6 Wind,M4,100,10,7
+wind,CMIP6 Wind,M4,100,12,7
+wind,CMIP6 Wind,M4,100,14,7
+wind,CMIP6 Wind,M4,100,16,7
+wind,CMIP6 Wind,M4,110,2,7
+wind,CMIP6 Wind,M4,110,4,7
+wind,CMIP6 Wind,M4,110,6,7
+wind,CMIP6 Wind,M4,110,8,7
+wind,CMIP6 Wind,M4,110,10,7
+wind,CMIP6 Wind,M4,110,12,7
+wind,CMIP6 Wind,M4,110,14,7
+wind,CMIP6 Wind,M4,110,16,7
+wind,CMIP6 Wind,M4,120,2,7
+wind,CMIP6 Wind,M4,120,4,7
+wind,CMIP6 Wind,M4,120,6,7
+wind,CMIP6 Wind,M4,120,8,7
+wind,CMIP6 Wind,M4,120,10,7
+wind,CMIP6 Wind,M4,120,12,7
+wind,CMIP6 Wind,M4,120,14,7
+wind,CMIP6 Wind,M4,120,16,7
+wind,CMIP6 Wind,M4,130,2,7
+wind,CMIP6 Wind,M4,130,4,7
+wind,CMIP6 Wind,M4,130,6,7
+wind,CMIP6 Wind,M4,130,8,7
+wind,CMIP6 Wind,M4,130,10,7
+wind,CMIP6 Wind,M4,130,12,7
+wind,CMIP6 Wind,M4,130,14,7
+wind,CMIP6 Wind,M4,130,16,7
+pressure,CMIP6 Pressure,M0,70,2,7
+pressure,CMIP6 Pressure,M0,70,4,7
+pressure,CMIP6 Pressure,M0,70,6,7
+pressure,CMIP6 Pressure,M0,70,8,7
+pressure,CMIP6 Pressure,M0,70,10,7
+pressure,CMIP6 Pressure,M0,70,12,7
+pressure,CMIP6 Pressure,M0,70,14,7
+pressure,CMIP6 Pressure,M0,70,16,7
+pressure,CMIP6 Pressure,M0,80,2,7
+pressure,CMIP6 Pressure,M0,80,4,7
+pressure,CMIP6 Pressure,M0,80,6,7
+pressure,CMIP6 Pressure,M0,80,8,7
+pressure,CMIP6 Pressure,M0,80,10,7
+pressure,CMIP6 Pressure,M0,80,12,7
+pressure,CMIP6 Pressure,M0,80,14,7
+pressure,CMIP6 Pressure,M0,80,16,7
+pressure,CMIP6 Pressure,M0,90,2,7
+pressure,CMIP6 Pressure,M0,90,4,7
+pressure,CMIP6 Pressure,M0,90,6,7
+pressure,CMIP6 Pressure,M0,90,8,7
+pressure,CMIP6 Pressure,M0,90,10,7
+pressure,CMIP6 Pressure,M0,90,12,7
+pressure,CMIP6 Pressure,M0,90,14,7
+pressure,CMIP6 Pressure,M0,90,16,7
+pressure,CMIP6 Pressure,M0,100,2,7
+pressure,CMIP6 Pressure,M0,100,4,7
+pressure,CMIP6 Pressure,M0,100,6,7
+pressure,CMIP6 Pressure,M0,100,8,7
+pressure,CMIP6 Pressure,M0,100,10,7
+pressure,CMIP6 Pressure,M0,100,12,7
+pressure,CMIP6 Pressure,M0,100,14,7
+pressure,CMIP6 Pressure,M0,100,16,7
+pressure,CMIP6 Pressure,M0,110,2,7
+pressure,CMIP6 Pressure,M0,110,4,7
+pressure,CMIP6 Pressure,M0,110,6,7
+pressure,CMIP6 Pressure,M0,110,8,7
+pressure,CMIP6 Pressure,M0,110,10,7
+pressure,CMIP6 Pressure,M0,110,12,7
+pressure,CMIP6 Pressure,M0,110,14,7
+pressure,CMIP6 Pressure,M0,110,16,7
+pressure,CMIP6 Pressure,M0,120,2,7
+pressure,CMIP6 Pressure,M0,120,4,7
+pressure,CMIP6 Pressure,M0,120,6,7
+pressure,CMIP6 Pressure,M0,120,8,7
+pressure,CMIP6 Pressure,M0,120,10,7
+pressure,CMIP6 Pressure,M0,120,12,7
+pressure,CMIP6 Pressure,M0,120,14,7
+pressure,CMIP6 Pressure,M0,120,16,7
+pressure,CMIP6 Pressure,M0,130,2,7
+pressure,CMIP6 Pressure,M0,130,4,7
+pressure,CMIP6 Pressure,M0,130,6,7
+pressure,CMIP6 Pressure,M0,130,8,7
+pressure,CMIP6 Pressure,M0,130,10,7
+pressure,CMIP6 Pressure,M0,130,12,7
+pressure,CMIP6 Pressure,M0,130,14,7
+pressure,CMIP6 Pressure,M0,130,16,7
+pressure,CMIP6 Pressure,M1,70,2,7
+pressure,CMIP6 Pressure,M1,70,4,7
+pressure,CMIP6 Pressure,M1,70,6,7
+pressure,CMIP6 Pressure,M1,70,8,7
+pressure,CMIP6 Pressure,M1,70,10,7
+pressure,CMIP6 Pressure,M1,70,12,7
+pressure,CMIP6 Pressure,M1,70,14,7
+pressure,CMIP6 Pressure,M1,70,16,7
+pressure,CMIP6 Pressure,M1,80,2,7
+pressure,CMIP6 Pressure,M1,80,4,7
+pressure,CMIP6 Pressure,M1,80,6,7
+pressure,CMIP6 Pressure,M1,80,8,7
+pressure,CMIP6 Pressure,M1,80,10,7
+pressure,CMIP6 Pressure,M1,80,12,7
+pressure,CMIP6 Pressure,M1,80,14,7
+pressure,CMIP6 Pressure,M1,80,16,7
+pressure,CMIP6 Pressure,M1,90,2,7
+pressure,CMIP6 Pressure,M1,90,4,7
+pressure,CMIP6 Pressure,M1,90,6,7
+pressure,CMIP6 Pressure,M1,90,8,7
+pressure,CMIP6 Pressure,M1,90,10,7
+pressure,CMIP6 Pressure,M1,90,12,7
+pressure,CMIP6 Pressure,M1,90,14,7
+pressure,CMIP6 Pressure,M1,90,16,7
+pressure,CMIP6 Pressure,M1,100,2,7
+pressure,CMIP6 Pressure,M1,100,4,7
+pressure,CMIP6 Pressure,M1,100,6,7
+pressure,CMIP6 Pressure,M1,100,8,7
+pressure,CMIP6 Pressure,M1,100,10,7
+pressure,CMIP6 Pressure,M1,100,12,7
+pressure,CMIP6 Pressure,M1,100,14,7
+pressure,CMIP6 Pressure,M1,100,16,7
+pressure,CMIP6 Pressure,M1,110,2,7
+pressure,CMIP6 Pressure,M1,110,4,7
+pressure,CMIP6 Pressure,M1,110,6,7
+pressure,CMIP6 Pressure,M1,110,8,7
+pressure,CMIP6 Pressure,M1,110,10,7
+pressure,CMIP6 Pressure,M1,110,12,7
+pressure,CMIP6 Pressure,M1,110,14,7
+pressure,CMIP6 Pressure,M1,110,16,7
+pressure,CMIP6 Pressure,M1,120,2,7
+pressure,CMIP6 Pressure,M1,120,4,7
+pressure,CMIP6 Pressure,M1,120,6,7
+pressure,CMIP6 Pressure,M1,120,8,7
+pressure,CMIP6 Pressure,M1,120,10,7
+pressure,CMIP6 Pressure,M1,120,12,7
+pressure,CMIP6 Pressure,M1,120,14,7
+pressure,CMIP6 Pressure,M1,120,16,7
+pressure,CMIP6 Pressure,M1,130,2,7
+pressure,CMIP6 Pressure,M1,130,4,7
+pressure,CMIP6 Pressure,M1,130,6,7
+pressure,CMIP6 Pressure,M1,130,8,7
+pressure,CMIP6 Pressure,M1,130,10,7
+pressure,CMIP6 Pressure,M1,130,12,7
+pressure,CMIP6 Pressure,M1,130,14,7
+pressure,CMIP6 Pressure,M1,130,16,7
+pressure,CMIP6 Pressure,M2,70,2,7
+pressure,CMIP6 Pressure,M2,70,4,7
+pressure,CMIP6 Pressure,M2,70,6,7
+pressure,CMIP6 Pressure,M2,70,8,7
+pressure,CMIP6 Pressure,M2,70,10,7
+pressure,CMIP6 Pressure,M2,70,12,7
+pressure,CMIP6 Pressure,M2,70,14,7
+pressure,CMIP6 Pressure,M2,70,16,7
+pressure,CMIP6 Pressure,M2,80,2,7
+pressure,CMIP6 Pressure,M2,80,4,7
+pressure,CMIP6 Pressure,M2,80,6,7
+pressure,CMIP6 Pressure,M2,80,8,7
+pressure,CMIP6 Pressure,M2,80,10,7
+pressure,CMIP6 Pressure,M2,80,12,7
+pressure,CMIP6 Pressure,M2,80,14,7
+pressure,CMIP6 Pressure,M2,80,16,7
+pressure,CMIP6 Pressure,M2,90,2,7
+pressure,CMIP6 Pressure,M2,90,4,7
+pressure,CMIP6 Pressure,M2,90,6,7
+pressure,CMIP6 Pressure,M2,90,8,7
+pressure,CMIP6 Pressure,M2,90,10,7
+pressure,CMIP6 Pressure,M2,90,12,7
+pressure,CMIP6 Pressure,M2,90,14,7
+pressure,CMIP6 Pressure,M2,90,16,7
+pressure,CMIP6 Pressure,M2,100,2,7
+pressure,CMIP6 Pressure,M2,100,4,7
+pressure,CMIP6 Pressure,M2,100,6,7
+pressure,CMIP6 Pressure,M2,100,8,7
+pressure,CMIP6 Pressure,M2,100,10,7
+pressure,CMIP6 Pressure,M2,100,12,7
+pressure,CMIP6 Pressure,M2,100,14,7
+pressure,CMIP6 Pressure,M2,100,16,7
+pressure,CMIP6 Pressure,M2,110,2,7
+pressure,CMIP6 Pressure,M2,110,4,7
+pressure,CMIP6 Pressure,M2,110,6,7
+pressure,CMIP6 Pressure,M2,110,8,7
+pressure,CMIP6 Pressure,M2,110,10,7
+pressure,CMIP6 Pressure,M2,110,12,7
+pressure,CMIP6 Pressure,M2,110,14,7
+pressure,CMIP6 Pressure,M2,110,16,7
+pressure,CMIP6 Pressure,M2,120,2,7
+pressure,CMIP6 Pressure,M2,120,4,7
+pressure,CMIP6 Pressure,M2,120,6,7
+pressure,CMIP6 Pressure,M2,120,8,7
+pressure,CMIP6 Pressure,M2,120,10,7
+pressure,CMIP6 Pressure,M2,120,12,7
+pressure,CMIP6 Pressure,M2,120,14,7
+pressure,CMIP6 Pressure,M2,120,16,7
+pressure,CMIP6 Pressure,M2,130,2,7
+pressure,CMIP6 Pressure,M2,130,4,7
+pressure,CMIP6 Pressure,M2,130,6,7
+pressure,CMIP6 Pressure,M2,130,8,7
+pressure,CMIP6 Pressure,M2,130,10,7
+pressure,CMIP6 Pressure,M2,130,12,7
+pressure,CMIP6 Pressure,M2,130,14,7
+pressure,CMIP6 Pressure,M2,130,16,7
+pressure,CMIP6 Pressure,M3,70,2,7
+pressure,CMIP6 Pressure,M3,70,4,7
+pressure,CMIP6 Pressure,M3,70,6,7
+pressure,CMIP6 Pressure,M3,70,8,7
+pressure,CMIP6 Pressure,M3,70,10,7
+pressure,CMIP6 Pressure,M3,70,12,7
+pressure,CMIP6 Pressure,M3,70,14,7
+pressure,CMIP6 Pressure,M3,70,16,7
+pressure,CMIP6 Pressure,M3,80,2,7
+pressure,CMIP6 Pressure,M3,80,4,7
+pressure,CMIP6 Pressure,M3,80,6,7
+pressure,CMIP6 Pressure,M3,80,8,7
+pressure,CMIP6 Pressure,M3,80,10,7
+pressure,CMIP6 Pressure,M3,80,12,7
+pressure,CMIP6 Pressure,M3,80,14,7
+pressure,CMIP6 Pressure,M3,80,16,7
+pressure,CMIP6 Pressure,M3,90,2,7
+pressure,CMIP6 Pressure,M3,90,4,7
+pressure,CMIP6 Pressure,M3,90,6,7
+pressure,CMIP6 Pressure,M3,90,8,7
+pressure,CMIP6 Pressure,M3,90,10,7
+pressure,CMIP6 Pressure,M3,90,12,7
+pressure,CMIP6 Pressure,M3,90,14,7
+pressure,CMIP6 Pressure,M3,90,16,7
+pressure,CMIP6 Pressure,M3,100,2,7
+pressure,CMIP6 Pressure,M3,100,4,7
+pressure,CMIP6 Pressure,M3,100,6,7
+pressure,CMIP6 Pressure,M3,100,8,7
+pressure,CMIP6 Pressure,M3,100,10,7
+pressure,CMIP6 Pressure,M3,100,12,7
+pressure,CMIP6 Pressure,M3,100,14,7
+pressure,CMIP6 Pressure,M3,100,16,7
+pressure,CMIP6 Pressure,M3,110,2,7
+pressure,CMIP6 Pressure,M3,110,4,7
+pressure,CMIP6 Pressure,M3,110,6,7
+pressure,CMIP6 Pressure,M3,110,8,7
+pressure,CMIP6 Pressure,M3,110,10,7
+pressure,CMIP6 Pressure,M3,110,12,7
+pressure,CMIP6 Pressure,M3,110,14,7
+pressure,CMIP6 Pressure,M3,110,16,7
+pressure,CMIP6 Pressure,M3,120,2,7
+pressure,CMIP6 Pressure,M3,120,4,7
+pressure,CMIP6 Pressure,M3,120,6,7
+pressure,CMIP6 Pressure,M3,120,8,7
+pressure,CMIP6 Pressure,M3,120,10,7
+pressure,CMIP6 Pressure,M3,120,12,7
+pressure,CMIP6 Pressure,M3,120,14,7
+pressure,CMIP6 Pressure,M3,120,16,7
+pressure,CMIP6 Pressure,M3,130,2,7
+pressure,CMIP6 Pressure,M3,130,4,7
+pressure,CMIP6 Pressure,M3,130,6,7
+pressure,CMIP6 Pressure,M3,130,8,7
+pressure,CMIP6 Pressure,M3,130,10,7
+pressure,CMIP6 Pressure,M3,130,12,7
+pressure,CMIP6 Pressure,M3,130,14,7
+pressure,CMIP6 Pressure,M3,130,16,7
+pressure,CMIP6 Pressure,M4,70,2,7
+pressure,CMIP6 Pressure,M4,70,4,7
+pressure,CMIP6 Pressure,M4,70,6,7
+pressure,CMIP6 Pressure,M4,70,8,7
+pressure,CMIP6 Pressure,M4,70,10,7
+pressure,CMIP6 Pressure,M4,70,12,7
+pressure,CMIP6 Pressure,M4,70,14,7
+pressure,CMIP6 Pressure,M4,70,16,7
+pressure,CMIP6 Pressure,M4,80,2,7
+pressure,CMIP6 Pressure,M4,80,4,7
+pressure,CMIP6 Pressure,M4,80,6,7
+pressure,CMIP6 Pressure,M4,80,8,7
+pressure,CMIP6 Pressure,M4,80,10,7
+pressure,CMIP6 Pressure,M4,80,12,7
+pressure,CMIP6 Pressure,M4,80,14,7
+pressure,CMIP6 Pressure,M4,80,16,7
+pressure,CMIP6 Pressure,M4,90,2,7
+pressure,CMIP6 Pressure,M4,90,4,7
+pressure,CMIP6 Pressure,M4,90,6,7
+pressure,CMIP6 Pressure,M4,90,8,7
+pressure,CMIP6 Pressure,M4,90,10,7
+pressure,CMIP6 Pressure,M4,90,12,7
+pressure,CMIP6 Pressure,M4,90,14,7
+pressure,CMIP6 Pressure,M4,90,16,7
+pressure,CMIP6 Pressure,M4,100,2,7
+pressure,CMIP6 Pressure,M4,100,4,7
+pressure,CMIP6 Pressure,M4,100,6,7
+pressure,CMIP6 Pressure,M4,100,8,7
+pressure,CMIP6 Pressure,M4,100,10,7
+pressure,CMIP6 Pressure,M4,100,12,7
+pressure,CMIP6 Pressure,M4,100,14,7
+pressure,CMIP6 Pressure,M4,100,16,7
+pressure,CMIP6 Pressure,M4,110,2,7
+pressure,CMIP6 Pressure,M4,110,4,7
+pressure,CMIP6 Pressure,M4,110,6,7
+pressure,CMIP6 Pressure,M4,110,8,7
+pressure,CMIP6 Pressure,M4,110,10,7
+pressure,CMIP6 Pressure,M4,110,12,7
+pressure,CMIP6 Pressure,M4,110,14,7
+pressure,CMIP6 Pressure,M4,110,16,7
+pressure,CMIP6 Pressure,M4,120,2,7
+pressure,CMIP6 Pressure,M4,120,4,7
+pressure,CMIP6 Pressure,M4,120,6,7
+pressure,CMIP6 Pressure,M4,120,8,7
+pressure,CMIP6 Pressure,M4,120,10,7
+pressure,CMIP6 Pressure,M4,120,12,7
+pressure,CMIP6 Pressure,M4,120,14,7
+pressure,CMIP6 Pressure,M4,120,16,7
+pressure,CMIP6 Pressure,M4,130,2,7
+pressure,CMIP6 Pressure,M4,130,4,7
+pressure,CMIP6 Pressure,M4,130,6,7
+pressure,CMIP6 Pressure,M4,130,8,7
+pressure,CMIP6 Pressure,M4,130,10,7
+pressure,CMIP6 Pressure,M4,130,12,7
+pressure,CMIP6 Pressure,M4,130,14,7
+pressure,CMIP6 Pressure,M4,130,16,7
+lorenz,Lorenz,M0,70,2,7
+lorenz,Lorenz,M0,70,4,7
+lorenz,Lorenz,M0,70,6,7
+lorenz,Lorenz,M0,70,8,7
+lorenz,Lorenz,M0,70,10,7
+lorenz,Lorenz,M0,70,12,7
+lorenz,Lorenz,M0,70,14,7
+lorenz,Lorenz,M0,70,16,7
+lorenz,Lorenz,M0,80,2,7
+lorenz,Lorenz,M0,80,4,7
+lorenz,Lorenz,M0,80,6,7
+lorenz,Lorenz,M0,80,8,7
+lorenz,Lorenz,M0,80,10,7
+lorenz,Lorenz,M0,80,12,7
+lorenz,Lorenz,M0,80,14,7
+lorenz,Lorenz,M0,80,16,7
+lorenz,Lorenz,M0,90,2,7
+lorenz,Lorenz,M0,90,4,7
+lorenz,Lorenz,M0,90,6,7
+lorenz,Lorenz,M0,90,8,7
+lorenz,Lorenz,M0,90,10,7
+lorenz,Lorenz,M0,90,12,7
+lorenz,Lorenz,M0,90,14,7
+lorenz,Lorenz,M0,90,16,7
+lorenz,Lorenz,M0,100,2,7
+lorenz,Lorenz,M0,100,4,7
+lorenz,Lorenz,M0,100,6,7
+lorenz,Lorenz,M0,100,8,7
+lorenz,Lorenz,M0,100,10,7
+lorenz,Lorenz,M0,100,12,7
+lorenz,Lorenz,M0,100,14,7
+lorenz,Lorenz,M0,100,16,7
+lorenz,Lorenz,M0,110,2,7
+lorenz,Lorenz,M0,110,4,7
+lorenz,Lorenz,M0,110,6,7
+lorenz,Lorenz,M0,110,8,7
+lorenz,Lorenz,M0,110,10,7
+lorenz,Lorenz,M0,110,12,7
+lorenz,Lorenz,M0,110,14,7
+lorenz,Lorenz,M0,110,16,7
+lorenz,Lorenz,M0,120,2,7
+lorenz,Lorenz,M0,120,4,7
+lorenz,Lorenz,M0,120,6,7
+lorenz,Lorenz,M0,120,8,7
+lorenz,Lorenz,M0,120,10,7
+lorenz,Lorenz,M0,120,12,7
+lorenz,Lorenz,M0,120,14,7
+lorenz,Lorenz,M0,120,16,7
+lorenz,Lorenz,M0,130,2,7
+lorenz,Lorenz,M0,130,4,7
+lorenz,Lorenz,M0,130,6,7
+lorenz,Lorenz,M0,130,8,7
+lorenz,Lorenz,M0,130,10,7
+lorenz,Lorenz,M0,130,12,7
+lorenz,Lorenz,M0,130,14,7
+lorenz,Lorenz,M0,130,16,7
+lorenz,Lorenz,M1,70,2,7
+lorenz,Lorenz,M1,70,4,7
+lorenz,Lorenz,M1,70,6,7
+lorenz,Lorenz,M1,70,8,7
+lorenz,Lorenz,M1,70,10,7
+lorenz,Lorenz,M1,70,12,7
+lorenz,Lorenz,M1,70,14,7
+lorenz,Lorenz,M1,70,16,7
+lorenz,Lorenz,M1,80,2,7
+lorenz,Lorenz,M1,80,4,7
+lorenz,Lorenz,M1,80,6,7
+lorenz,Lorenz,M1,80,8,7
+lorenz,Lorenz,M1,80,10,7
+lorenz,Lorenz,M1,80,12,7
+lorenz,Lorenz,M1,80,14,7
+lorenz,Lorenz,M1,80,16,7
+lorenz,Lorenz,M1,90,2,7
+lorenz,Lorenz,M1,90,4,7
+lorenz,Lorenz,M1,90,6,7
+lorenz,Lorenz,M1,90,8,7
+lorenz,Lorenz,M1,90,10,7
+lorenz,Lorenz,M1,90,12,7
+lorenz,Lorenz,M1,90,14,7
+lorenz,Lorenz,M1,90,16,7
+lorenz,Lorenz,M1,100,2,7
+lorenz,Lorenz,M1,100,4,7
+lorenz,Lorenz,M1,100,6,7
+lorenz,Lorenz,M1,100,8,7
+lorenz,Lorenz,M1,100,10,7
+lorenz,Lorenz,M1,100,12,7
+lorenz,Lorenz,M1,100,14,7
+lorenz,Lorenz,M1,100,16,7
+lorenz,Lorenz,M1,110,2,7
+lorenz,Lorenz,M1,110,4,7
+lorenz,Lorenz,M1,110,6,7
+lorenz,Lorenz,M1,110,8,7
+lorenz,Lorenz,M1,110,10,7
+lorenz,Lorenz,M1,110,12,7
+lorenz,Lorenz,M1,110,14,7
+lorenz,Lorenz,M1,110,16,7
+lorenz,Lorenz,M1,120,2,7
+lorenz,Lorenz,M1,120,4,7
+lorenz,Lorenz,M1,120,6,7
+lorenz,Lorenz,M1,120,8,7
+lorenz,Lorenz,M1,120,10,7
+lorenz,Lorenz,M1,120,12,7
+lorenz,Lorenz,M1,120,14,7
+lorenz,Lorenz,M1,120,16,7
+lorenz,Lorenz,M1,130,2,7
+lorenz,Lorenz,M1,130,4,7
+lorenz,Lorenz,M1,130,6,7
+lorenz,Lorenz,M1,130,8,7
+lorenz,Lorenz,M1,130,10,7
+lorenz,Lorenz,M1,130,12,7
+lorenz,Lorenz,M1,130,14,7
+lorenz,Lorenz,M1,130,16,7
+lorenz,Lorenz,M2,70,2,7
+lorenz,Lorenz,M2,70,4,7
+lorenz,Lorenz,M2,70,6,7
+lorenz,Lorenz,M2,70,8,7
+lorenz,Lorenz,M2,70,10,7
+lorenz,Lorenz,M2,70,12,7
+lorenz,Lorenz,M2,70,14,7
+lorenz,Lorenz,M2,70,16,7
+lorenz,Lorenz,M2,80,2,7
+lorenz,Lorenz,M2,80,4,7
+lorenz,Lorenz,M2,80,6,7
+lorenz,Lorenz,M2,80,8,7
+lorenz,Lorenz,M2,80,10,7
+lorenz,Lorenz,M2,80,12,7
+lorenz,Lorenz,M2,80,14,7
+lorenz,Lorenz,M2,80,16,7
+lorenz,Lorenz,M2,90,2,7
+lorenz,Lorenz,M2,90,4,7
+lorenz,Lorenz,M2,90,6,7
+lorenz,Lorenz,M2,90,8,7
+lorenz,Lorenz,M2,90,10,7
+lorenz,Lorenz,M2,90,12,7
+lorenz,Lorenz,M2,90,14,7
+lorenz,Lorenz,M2,90,16,7
+lorenz,Lorenz,M2,100,2,7
+lorenz,Lorenz,M2,100,4,7
+lorenz,Lorenz,M2,100,6,7
+lorenz,Lorenz,M2,100,8,7
+lorenz,Lorenz,M2,100,10,7
+lorenz,Lorenz,M2,100,12,7
+lorenz,Lorenz,M2,100,14,7
+lorenz,Lorenz,M2,100,16,7
+lorenz,Lorenz,M2,110,2,7
+lorenz,Lorenz,M2,110,4,7
+lorenz,Lorenz,M2,110,6,7
+lorenz,Lorenz,M2,110,8,7
+lorenz,Lorenz,M2,110,10,7
+lorenz,Lorenz,M2,110,12,7
+lorenz,Lorenz,M2,110,14,7
+lorenz,Lorenz,M2,110,16,7
+lorenz,Lorenz,M2,120,2,7
+lorenz,Lorenz,M2,120,4,7
+lorenz,Lorenz,M2,120,6,7
+lorenz,Lorenz,M2,120,8,7
+lorenz,Lorenz,M2,120,10,7
+lorenz,Lorenz,M2,120,12,7
+lorenz,Lorenz,M2,120,14,7
+lorenz,Lorenz,M2,120,16,7
+lorenz,Lorenz,M2,130,2,7
+lorenz,Lorenz,M2,130,4,7
+lorenz,Lorenz,M2,130,6,7
+lorenz,Lorenz,M2,130,8,7
+lorenz,Lorenz,M2,130,10,7
+lorenz,Lorenz,M2,130,12,7
+lorenz,Lorenz,M2,130,14,7
+lorenz,Lorenz,M2,130,16,7
+lorenz,Lorenz,M3,70,2,7
+lorenz,Lorenz,M3,70,4,7
+lorenz,Lorenz,M3,70,6,7
+lorenz,Lorenz,M3,70,8,7
+lorenz,Lorenz,M3,70,10,7
+lorenz,Lorenz,M3,70,12,7
+lorenz,Lorenz,M3,70,14,7
+lorenz,Lorenz,M3,70,16,7
+lorenz,Lorenz,M3,80,2,7
+lorenz,Lorenz,M3,80,4,7
+lorenz,Lorenz,M3,80,6,7
+lorenz,Lorenz,M3,80,8,7
+lorenz,Lorenz,M3,80,10,7
+lorenz,Lorenz,M3,80,12,7
+lorenz,Lorenz,M3,80,14,7
+lorenz,Lorenz,M3,80,16,7
+lorenz,Lorenz,M3,90,2,7
+lorenz,Lorenz,M3,90,4,7
+lorenz,Lorenz,M3,90,6,7
+lorenz,Lorenz,M3,90,8,7
+lorenz,Lorenz,M3,90,10,7
+lorenz,Lorenz,M3,90,12,7
+lorenz,Lorenz,M3,90,14,7
+lorenz,Lorenz,M3,90,16,7
+lorenz,Lorenz,M3,100,2,7
+lorenz,Lorenz,M3,100,4,7
+lorenz,Lorenz,M3,100,6,7
+lorenz,Lorenz,M3,100,8,7
+lorenz,Lorenz,M3,100,10,7
+lorenz,Lorenz,M3,100,12,7
+lorenz,Lorenz,M3,100,14,7
+lorenz,Lorenz,M3,100,16,7
+lorenz,Lorenz,M3,110,2,7
+lorenz,Lorenz,M3,110,4,7
+lorenz,Lorenz,M3,110,6,7
+lorenz,Lorenz,M3,110,8,7
+lorenz,Lorenz,M3,110,10,7
+lorenz,Lorenz,M3,110,12,7
+lorenz,Lorenz,M3,110,14,7
+lorenz,Lorenz,M3,110,16,7
+lorenz,Lorenz,M3,120,2,7
+lorenz,Lorenz,M3,120,4,7
+lorenz,Lorenz,M3,120,6,7
+lorenz,Lorenz,M3,120,8,7
+lorenz,Lorenz,M3,120,10,7
+lorenz,Lorenz,M3,120,12,7
+lorenz,Lorenz,M3,120,14,7
+lorenz,Lorenz,M3,120,16,7
+lorenz,Lorenz,M3,130,2,7
+lorenz,Lorenz,M3,130,4,7
+lorenz,Lorenz,M3,130,6,7
+lorenz,Lorenz,M3,130,8,7
+lorenz,Lorenz,M3,130,10,7
+lorenz,Lorenz,M3,130,12,7
+lorenz,Lorenz,M3,130,14,7
+lorenz,Lorenz,M3,130,16,7
+lorenz,Lorenz,M4,70,2,7
+lorenz,Lorenz,M4,70,4,7
+lorenz,Lorenz,M4,70,6,7
+lorenz,Lorenz,M4,70,8,7
+lorenz,Lorenz,M4,70,10,7
+lorenz,Lorenz,M4,70,12,7
+lorenz,Lorenz,M4,70,14,7
+lorenz,Lorenz,M4,70,16,7
+lorenz,Lorenz,M4,80,2,7
+lorenz,Lorenz,M4,80,4,7
+lorenz,Lorenz,M4,80,6,7
+lorenz,Lorenz,M4,80,8,7
+lorenz,Lorenz,M4,80,10,7
+lorenz,Lorenz,M4,80,12,7
+lorenz,Lorenz,M4,80,14,7
+lorenz,Lorenz,M4,80,16,7
+lorenz,Lorenz,M4,90,2,7
+lorenz,Lorenz,M4,90,4,7
+lorenz,Lorenz,M4,90,6,7
+lorenz,Lorenz,M4,90,8,7
+lorenz,Lorenz,M4,90,10,7
+lorenz,Lorenz,M4,90,12,7
+lorenz,Lorenz,M4,90,14,7
+lorenz,Lorenz,M4,90,16,7
+lorenz,Lorenz,M4,100,2,7
+lorenz,Lorenz,M4,100,4,7
+lorenz,Lorenz,M4,100,6,7
+lorenz,Lorenz,M4,100,8,7
+lorenz,Lorenz,M4,100,10,7
+lorenz,Lorenz,M4,100,12,7
+lorenz,Lorenz,M4,100,14,7
+lorenz,Lorenz,M4,100,16,7
+lorenz,Lorenz,M4,110,2,7
+lorenz,Lorenz,M4,110,4,7
+lorenz,Lorenz,M4,110,6,7
+lorenz,Lorenz,M4,110,8,7
+lorenz,Lorenz,M4,110,10,7
+lorenz,Lorenz,M4,110,12,7
+lorenz,Lorenz,M4,110,14,7
+lorenz,Lorenz,M4,110,16,7
+lorenz,Lorenz,M4,120,2,7
+lorenz,Lorenz,M4,120,4,7
+lorenz,Lorenz,M4,120,6,7
+lorenz,Lorenz,M4,120,8,7
+lorenz,Lorenz,M4,120,10,7
+lorenz,Lorenz,M4,120,12,7
+lorenz,Lorenz,M4,120,14,7
+lorenz,Lorenz,M4,120,16,7
+lorenz,Lorenz,M4,130,2,7
+lorenz,Lorenz,M4,130,4,7
+lorenz,Lorenz,M4,130,6,7
+lorenz,Lorenz,M4,130,8,7
+lorenz,Lorenz,M4,130,10,7
+lorenz,Lorenz,M4,130,12,7
+lorenz,Lorenz,M4,130,14,7
+lorenz,Lorenz,M4,130,16,7
