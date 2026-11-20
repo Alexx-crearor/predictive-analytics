@@ -450,7 +450,14 @@ def train_model(
             ):
                 stop_training = True
 
-
+        # Ghi lịch sử huấn luyện để phân tích hội tụ
+        history.append({
+            "epoch": current_epoch,
+            "train_forecast_mse": forecast_sum / len(x_train),
+            "train_alignment_mse": alignment_sum / len(x_train),
+            "val_mse": val_mse,
+            "best_val_mse": best_val,
+        })
 
         # Lưu trạng thái định kỳ hoặc ngay khi Early Stopping kích hoạt
         if (
