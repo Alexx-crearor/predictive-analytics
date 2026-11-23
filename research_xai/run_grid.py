@@ -7,8 +7,8 @@ from itertools import product
 from pathlib import Path
 
 import torch
-from torch.utils.data import DataLoader, TensorDataset
 
+from research_xai.evaluation.metrics import evaluate_model
 from research_xai.data.dataset import (
     prepare_dataset,
     PATCH_LENGTHS,
@@ -160,41 +160,6 @@ def is_completed(run_dir, config, data_hash):
     if best_path.is_file() and not latest_path.is_file():
         raise RuntimeError(f"Co best checkpoint nhung thieu metrics/latest: {run_dir}")
     return False
-
-
-@torch.no_grad()
-def evaluate_model(model, x_test, y_test, batch_size):
-    """Tính MSE và MAE trên tập test."""
-
-    device = next(model.parameters()).device
-    model.eval()
-
-    loader = DataLoader(
-        TensorDataset(x_test, y_test),
-        batch_size=batch_size,
-        shuffle=False,
-        num_workers=0,
-    )
-
-    squared_error = 0.0
-    absolute_error = 0.0
-    total_values = 0
-
-    for inputs, targets in loader:
-        inputs = inputs.to(device)
-        targets = targets.to(device)
-
-        predictions = model(inputs)
-        errors = predictions - targets
-
-        squared_error += errors.square().sum().item()
-        absolute_error += errors.abs().sum().item()
-        total_values += errors.numel()
-
-    return {
-        "test_mse": squared_error / total_values,
-        "test_mae": absolute_error / total_values,
-    }
 
 
 def run_experiment(run, config):
