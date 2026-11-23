@@ -1,0 +1,34 @@
+{
+  "target_runs": 225,
+  "completed_runs": 225,
+  "missing_runs": 0,
+  "paused_runs": [],
+  "missing_run_ids": [],
+  "source_archives": [
+    "deepkoopformer_account1_gpu0_results.zip",
+    "deepkoopformer_account1_gpu1_results.zip",
+    "deepkoopformer_reducedgrid_gpu0_results.zip",
+    "deepkoopformer_reducedgrid_gpu1_results.zip",
+    "deepkoopformer_account3_gpu0_results.zip",
+    "deepkoopformer_account3_gpu1_results.zip",
+    "deepkoopformer_account2_gpu0_results.zip",
+    "deepkoopformer_account2_gpu1_results.zip"
+  ],
+  "archive_run_folder_counts": {
+    "deepkoopformer_account1_gpu0_results.zip": 24,
+    "deepkoopformer_account1_gpu1_results.zip": 23,
+    "deepkoopformer_reducedgrid_gpu0_results.zip": 45,
+    "deepkoopformer_reducedgrid_gpu1_results.zip": 43,
+    "deepkoopformer_account3_gpu0_results.zip": 23,
+    "deepkoopformer_account3_gpu1_results.zip": 23,
+    "deepkoopformer_account2_gpu0_results.zip": 23,
+    "deepkoopformer_account2_gpu1_results.zip": 23
+  },
+  "runtime_signatures": {
+    "git_commit": "2901cdad6a4a76f5056974f304438f46f6fc1625",
+    "trainer_sha256": "7d5c9f1d507f0c2dbc1faa96869e41d5acd9914efff4020e2d0b25cd56eae19e",
+    "runner_sha256": "7782775f944eaa5beef7cfba6ac88b289037212b19d76529cfce9ba02c1be19c",
+    "experiment": "reduced_grid_225_v1"
+  },
+  "ready_for_final_analysis": true
+}

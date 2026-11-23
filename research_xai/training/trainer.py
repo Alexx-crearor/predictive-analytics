@@ -6,6 +6,7 @@ from pathlib import Path
 import hashlib
 import os
 import random
+import time
 
 import numpy as np
 import torch
@@ -329,6 +330,9 @@ def train_model(
     # Theo dõi số epoch thực tế và trạng thái dừng sớm
     last_epoch = start_epoch
     early_stopped = False
+    # SYNC_RUNTIME_225_V1: gioi han thoi gian chi khi co bien moi truong.
+    stop_deadline = float(os.environ.get("RESEARCH_XAI_STOP_DEADLINE", "0"))
+    time_limited = False
     
     for epoch in range(start_epoch, config.epochs):
         model.train()
@@ -492,6 +496,14 @@ def train_model(
             break
 
 
+        # Luon luu trang thai neu phien Kaggle den han.
+        if (stop_deadline > 0 and current_epoch < config.epochs
+                and time.time() >= stop_deadline):
+            save_latest(current_epoch)
+            time_limited = True
+            print(f"[TIME LIMIT] {variant}: checkpoint epoch {current_epoch}", flush=True)
+            break
+
     # Lưu mô hình có validation MSE tốt nhất
     if best_weights is not None:
         save_checkpoint(
@@ -512,6 +524,7 @@ def train_model(
         "best_val_mse": best_val,
         "early_stopped": early_stopped,
         "epochs_saved": config.epochs - last_epoch,
-        "run_dir": str(run_dir)
+        "run_dir": str(run_dir),
+        "time_limited": time_limited
     }
 

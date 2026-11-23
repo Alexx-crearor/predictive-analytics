@@ -2,7 +2,7 @@ import argparse
 import csv
 import gc
 import json
-from dataclasses import asdict
+from dataclasses import asdict, replace
 from itertools import product
 from pathlib import Path
 
@@ -28,7 +28,10 @@ from research_xai.training.trainer import (
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-RESULTS_ROOT = PROJECT_ROOT / "research_xai" / "results" / "grid_v2_earlystop"
+RESULTS_ROOT = PROJECT_ROOT / "research_xai" / "results" / "reduced_grid_225_v1"
+# SYNC_RUNTIME_225_V1: luu giao thuc 225; full grid dung --grid full.
+REDUCED_PATCHES = (70, 100, 130)
+REDUCED_HORIZONS = (2, 8, 16)
 
 DATASETS = {
     "energy": "Electricity",
@@ -84,13 +87,13 @@ def build_grid(args):
     )
 
     patches = (
-        PATCH_LENGTHS
+        (REDUCED_PATCHES if getattr(args, "grid", "reduced225") == "reduced225" else PATCH_LENGTHS)
         if args.patch is None
         else [args.patch]
     )
 
     horizons = (
-        HORIZONS
+        (REDUCED_HORIZONS if getattr(args, "grid", "reduced225") == "reduced225" else HORIZONS)
         if args.horizon is None
         else [args.horizon]
     )
@@ -127,30 +130,36 @@ def get_run_dir(run, config):
 
 
 def is_completed(run_dir, config, data_hash):
-    """Kiểm tra run đã hoàn thành hoặc dừng sớm hợp lệ."""
+    """Chi bo qua run neu metrics va best checkpoint deu khop.
 
+    Khong tu train de ghi de khi run da hoan thanh nhung bi lech config.
+    """
     metrics_path = run_dir / "metrics.json"
     latest_path = run_dir / "checkpoint_latest.pt"
     best_path = run_dir / "checkpoint_best.pt"
 
-    if not all(
-        path.is_file()
-        for path in (metrics_path, latest_path, best_path)
-    ):
-        return False
+    if metrics_path.is_file():
+        if not best_path.is_file():
+            raise RuntimeError(f"Run da co metrics nhung thieu best checkpoint: {run_dir}")
+        with metrics_path.open("r", encoding="utf-8") as file:
+            metrics = json.load(file)
+        expected = (
+            metrics.get("status") == "completed"
+            and metrics.get("target_epochs") == config.epochs
+            and 0 < metrics.get("completed_epochs", 0) <= config.epochs
+            and metrics.get("config") == asdict(config)
+            and metrics.get("data_hash") == data_hash
+        )
+        if not expected:
+            raise RuntimeError(
+                f"Run da co metrics nhung config/data hash khong khop; "
+                f"KHONG train de ghi de: {run_dir}"
+            )
+        return True
 
-    with open(metrics_path, "r", encoding="utf-8") as file:
-        metrics = json.load(file)
-
-    completed_epochs = metrics.get("completed_epochs", 0)
-
-    return (
-        metrics.get("status") == "completed"
-        and metrics.get("target_epochs") == config.epochs
-        and 0 < completed_epochs <= config.epochs
-        and metrics.get("config") == asdict(config)
-        and metrics.get("data_hash") == data_hash
-    )
+    if best_path.is_file() and not latest_path.is_file():
+        raise RuntimeError(f"Co best checkpoint nhung thieu metrics/latest: {run_dir}")
+    return False
 
 
 @torch.no_grad()
@@ -246,6 +255,10 @@ def run_experiment(run, config):
         config=config,
         resume=True,
     )
+
+    if result.get("time_limited", False):
+        print(f"[PAUSED] {dataset_name} | {variant} | P={patch} H={horizon}")
+        return "paused"
 
     # Chỉ đánh giá test bằng checkpoint tốt nhất
     best_path = run_dir / "checkpoint_best.pt"
@@ -346,6 +359,9 @@ def parse_args():
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--seed", type=int, default=7)
 
+    parser.add_argument("--grid", choices=("reduced225", "full"), default="reduced225")
+    parser.add_argument("--results-root", type=str, default=None)
+
     # Chỉ huấn luyện khi người dùng chủ động bật
     parser.add_argument("--execute", action="store_true")
 
@@ -356,13 +372,24 @@ def parse_args():
 
 
 def main():
+    global RESULTS_ROOT
     args = parse_args()
+    if args.grid == "full":
+        RESULTS_ROOT = PROJECT_ROOT / "research_xai" / "results" / "grid_v2_earlystop"
+    if args.results_root:
+        RESULTS_ROOT = Path(args.results_root).resolve()
 
     if args.patch is not None and args.patch not in PATCH_LENGTHS:
         raise ValueError("Lookback không thuộc grid")
 
     if args.horizon is not None and args.horizon not in HORIZONS:
         raise ValueError("Horizon không thuộc grid")
+
+    if args.grid == "reduced225":
+        if args.patch is not None and args.patch not in REDUCED_PATCHES:
+            raise ValueError("Lookback khong thuoc 225 runs. Dung --grid full neu muon full grid.")
+        if args.horizon is not None and args.horizon not in REDUCED_HORIZONS:
+            raise ValueError("Horizon khong thuoc 225 runs. Dung --grid full neu muon full grid.")
 
     if args.epochs < 1 or args.batch_size < 1:
         raise ValueError("Epochs và batch size phải dương")
@@ -396,12 +423,21 @@ def main():
         if args.max_runs > 0 and completed >= args.max_runs:
             break
 
-        status = run_experiment(run, config)
+        # Config luu trong Kaggle: M0/M1/M2 lambda=0; M3/M4 lambda=0.1
+        run_config = replace(
+            config, lambda_align=(0.1 if run["model"] in {"M3", "M4"} else 0.0)
+        )
+        status = run_experiment(run, run_config)
 
         if status == "completed":
             completed += 1
-        else:
+        elif status == "paused":
+            print("[PAUSED] Dung vong lap de giu checkpoint dang do")
+            break
+        elif status == "skipped":
             skipped += 1
+        else:
+            raise RuntimeError(f"Trang thai run khong hop le: {status}")
 
     print(f"Hoàn thành mới: {completed}")
     print(f"Bỏ qua: {skipped}")
