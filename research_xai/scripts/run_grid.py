@@ -27,7 +27,7 @@ from research_xai.training.trainer import (
 )
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RESULTS_ROOT = PROJECT_ROOT / "research_xai" / "results" / "reduced_grid_225_v1"
 # SYNC_RUNTIME_225_V1: luu giao thuc 225; full grid dung --grid full.
 REDUCED_PATCHES = (70, 100, 130)

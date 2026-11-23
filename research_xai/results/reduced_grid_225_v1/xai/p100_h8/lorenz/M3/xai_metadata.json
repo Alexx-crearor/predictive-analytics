@@ -1,0 +1,32 @@
+{
+  "source_data_hash": "f4ac596439cb04000a58a8f0899e5e2a79b45dee2a7c3ed5255a3bc903a7cf92",
+  "selected_test_inputs_sha256": "0df8d0880b558827dbdb595321b921af7fb49a97fae3654ebd4da71b1e4123c1",
+  "method": [
+    "dynamics",
+    "ig",
+    "occlusion"
+  ],
+  "trained_model": "M3",
+  "dataset": "Lorenz",
+  "sample_indices": [
+    0,
+    41,
+    83,
+    124,
+    166,
+    207,
+    249,
+    291
+  ],
+  "ig_steps": 32,
+  "occlusion_block_size": 10,
+  "baseline": "mean of normalized x_train windows over samples and timesteps, per channel",
+  "target_definition": "forecast[channel, lead] indexed in feature-major output",
+  "target_channel": 0,
+  "target_step_zero_based": 7,
+  "koopman_gap_definition": "student re-encoding gap, not EMA teacher alignment loss",
+  "source_checkpoint": "C:\\Users\\Win 11 New\\Desktop\\pa gk\\research_xai\\results\\reduced_grid_225_v1\\lorenz\\M3\\p100_h8_e4000_b32_s7\\checkpoint_best.pt",
+  "source_best_epoch": 400,
+  "source_full_test_mse": 0.0007004120416905237,
+  "limitation": "single seed; overlapping test windows; attribution is not causal importance"
+}

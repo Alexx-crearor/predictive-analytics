@@ -1,0 +1,32 @@
+{
+  "source_data_hash": "2b6f91bb5ed8e1a602d81d1d77c47acc7e4acb84e1f92fb794175c54e7839fe8",
+  "selected_test_inputs_sha256": "da2ecd953f472b2fdecaebaa141842df2719405e33da4ded82721a7599436acd",
+  "method": [
+    "dynamics",
+    "ig",
+    "occlusion"
+  ],
+  "trained_model": "M4",
+  "dataset": "CMIP6 Pressure",
+  "sample_indices": [
+    0,
+    55,
+    111,
+    167,
+    223,
+    279,
+    335,
+    391
+  ],
+  "ig_steps": 32,
+  "occlusion_block_size": 10,
+  "baseline": "mean of normalized x_train windows over samples and timesteps, per channel",
+  "target_definition": "forecast[channel, lead] indexed in feature-major output",
+  "target_channel": 0,
+  "target_step_zero_based": 7,
+  "koopman_gap_definition": "student re-encoding gap, not EMA teacher alignment loss",
+  "source_checkpoint": "C:\\Users\\Win 11 New\\Desktop\\pa gk\\research_xai\\results\\reduced_grid_225_v1\\pressure\\M4\\p100_h8_e4000_b32_s7\\checkpoint_best.pt",
+  "source_best_epoch": 200,
+  "source_full_test_mse": 0.008170987194289967,
+  "limitation": "single seed; overlapping test windows; attribution is not causal importance"
+}
