@@ -1,0 +1,36 @@
+dataset,model,source,samples,channels,selected_windows_mse,data_hash_verified
+Electricity,M0,Saved XAI predictions,8,6,0.015192792750895023,True
+Electricity,M1,Saved XAI predictions,8,6,0.020752616226673126,True
+Electricity,M2,Saved XAI predictions,8,6,0.015857979655265808,True
+Electricity,M3,Saved XAI predictions,8,6,0.01682807318866253,True
+Electricity,M4,Saved XAI predictions,8,6,0.0181085467338562,True
+Electricity,LSTM,Best checkpoint inference,8,6,0.01770382560789585,True
+Electricity,DLinear,Best checkpoint inference,8,6,0.011122294701635838,True
+Financial,M0,Saved XAI predictions,8,2,0.002911175135523081,True
+Financial,M1,Saved XAI predictions,8,2,0.0027761347591876984,True
+Financial,M2,Saved XAI predictions,8,2,0.0026129442267119884,True
+Financial,M3,Saved XAI predictions,8,2,0.003907640464603901,True
+Financial,M4,Saved XAI predictions,8,2,0.009607244282960892,True
+Financial,LSTM,Best checkpoint inference,8,2,0.0006590172997675836,True
+Financial,DLinear,Best checkpoint inference,8,2,0.0006108789821155369,True
+CMIP6 Wind,M0,Saved XAI predictions,8,5,0.035264577716588974,True
+CMIP6 Wind,M1,Saved XAI predictions,8,5,0.04158414527773857,True
+CMIP6 Wind,M2,Saved XAI predictions,8,5,0.035829272121191025,True
+CMIP6 Wind,M3,Saved XAI predictions,8,5,0.03314421698451042,True
+CMIP6 Wind,M4,Saved XAI predictions,8,5,0.03440069407224655,True
+CMIP6 Wind,LSTM,Best checkpoint inference,8,5,0.02781461738049984,True
+CMIP6 Wind,DLinear,Best checkpoint inference,8,5,0.021877039223909378,True
+CMIP6 Pressure,M0,Saved XAI predictions,8,5,0.0067534856498241425,True
+CMIP6 Pressure,M1,Saved XAI predictions,8,5,0.010347658768296242,True
+CMIP6 Pressure,M2,Saved XAI predictions,8,5,0.007882139645516872,True
+CMIP6 Pressure,M3,Saved XAI predictions,8,5,0.003390111029148102,True
+CMIP6 Pressure,M4,Saved XAI predictions,8,5,0.004884137772023678,True
+CMIP6 Pressure,LSTM,Best checkpoint inference,8,5,0.0023706229403615,True
+CMIP6 Pressure,DLinear,Best checkpoint inference,8,5,0.0022707569878548384,True
+Lorenz,M0,Saved XAI predictions,8,3,6.189004488987848e-05,True
+Lorenz,M1,Saved XAI predictions,8,3,9.676899207988754e-05,True
+Lorenz,M2,Saved XAI predictions,8,3,8.885513670975342e-05,True
+Lorenz,M3,Saved XAI predictions,8,3,0.000848046678584069,True
+Lorenz,M4,Saved XAI predictions,8,3,0.0008189179934561253,True
+Lorenz,LSTM,Best checkpoint inference,8,3,5.7715795264812186e-05,True
+Lorenz,DLinear,Best checkpoint inference,8,3,0.0009461776353418827,True

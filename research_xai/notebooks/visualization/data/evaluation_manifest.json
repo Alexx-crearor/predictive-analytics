@@ -1,0 +1,52 @@
+{
+  "project": "DeepKoopFormer XAI",
+  "notebook": "01_evaluation.ipynb",
+  "created_utc": "2026-11-24T06:08:39.340173+00:00",
+  "total_runs": 235,
+  "ablation_runs": 225,
+  "baseline_runs": 10,
+  "matched_benchmark_runs": 35,
+  "datasets": [
+    "Electricity",
+    "Financial",
+    "CMIP6 Wind",
+    "CMIP6 Pressure",
+    "Lorenz"
+  ],
+  "models": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "LSTM",
+    "DLinear"
+  ],
+  "benchmark_config": {
+    "lookback": 100,
+    "horizon": 8,
+    "seed": 7
+  },
+  "files": {
+    "evaluation_all_235.csv": {
+      "rows": 235,
+      "sha256": "feb43452c5a6d41cfca9cce6e82278f9588923737e20727a0588a4112d384dbf"
+    },
+    "benchmark_35_summary.csv": {
+      "rows": 35,
+      "sha256": "fd066dd8d482f2987712b9eebc03bcf5f34468c0a68fcc2fabb499c543a4eab4"
+    },
+    "ablation_225_summary.csv": {
+      "rows": 25,
+      "sha256": "6318c09e8b6f48bc011551b326b869117196f55d412cd4deddd120394147c679"
+    },
+    "early_stopping_235_summary.csv": {
+      "rows": 35,
+      "sha256": "ff28355ce484a161754cb1edd9560214cb889ded1a1da44ced9041fa22b3be0e"
+    },
+    "final_evaluation_overview.csv": {
+      "rows": 5,
+      "sha256": "95e7971bd4050210e9894e233be42a3c7ccaff555093905d261401ca5bcd73da"
+    }
+  }
+}

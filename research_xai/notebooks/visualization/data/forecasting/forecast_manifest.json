@@ -1,0 +1,83 @@
+{
+  "project": "DeepKoopFormer XAI",
+  "notebook": "02_forecasting.ipynb",
+  "created_utc": "2026-11-24T07:56:26.976041+00:00",
+  "lookback": 100,
+  "horizon": 8,
+  "seed": 7,
+  "datasets": [
+    "Electricity",
+    "Financial",
+    "CMIP6 Wind",
+    "CMIP6 Pressure",
+    "Lorenz"
+  ],
+  "models": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "LSTM",
+    "DLinear"
+  ],
+  "n_selected_windows_per_dataset": 8,
+  "total_forecast_sources": 35,
+  "validation": {
+    "source_verified": true,
+    "window_mse_consistent": true,
+    "channel_mse_consistent": true,
+    "horizon_mse_consistent": true
+  },
+  "limitation": "Forecasting visualizations use 8 preselected test windows per dataset, not the complete test set.",
+  "files": {
+    "architecture_contribution_summary.csv": {
+      "bytes": 3104,
+      "sha256": "1251cd2616ed0be8b8ff5cd8733c5adbb80be1f8e60ee26dae757b6b1ee82a19"
+    },
+    "channel_forecast_metrics_8windows.csv": {
+      "bytes": 12433,
+      "sha256": "da59b06928b0f2055388262e9c5e46930467898418b6dd54721fe21a1ea25912"
+    },
+    "forecast_case_selection.csv": {
+      "bytes": 1426,
+      "sha256": "161df6e63493bef96aae3181c0301be3a185f14d1358e5ba6c4b072392ef42bb"
+    },
+    "forecast_metrics_8windows.csv": {
+      "bytes": 2470,
+      "sha256": "75020de99820d21216fe695774387873b8998086b794199a31deb65310427bac"
+    },
+    "forecasts_energy.npz": {
+      "bytes": 23183,
+      "sha256": "170d6c743e7831e7b6f5290cd0f49a0475aeff6ab5f164d8bcf19efccb912993"
+    },
+    "forecasts_financial.npz": {
+      "bytes": 10065,
+      "sha256": "a1c9ccb100124dd6dfb60f3d683fff1bb68b526e17915ad2c22e2f695b311060"
+    },
+    "forecasts_lorenz.npz": {
+      "bytes": 12177,
+      "sha256": "8d25cafb79e79d28273488b675a56608a748b9f8cc9887d0c2cad471faced677"
+    },
+    "forecasts_pressure.npz": {
+      "bytes": 19393,
+      "sha256": "a8f1739f9ba69642a8b3841dffc67208a8cfa58434250d217ac9c87089d7ed6b"
+    },
+    "forecasts_wind.npz": {
+      "bytes": 21692,
+      "sha256": "4b3e126a592cb9cad83f1bf2f4356b3f85c39bd04d4303d619c4526ff3f38d6d"
+    },
+    "horizon_error_growth_summary.csv": {
+      "bytes": 4862,
+      "sha256": "f4575a196a36b0baf4013bc1e90bd16a0a7594dfb0c311fe1157ad9102b1db81"
+    },
+    "selected_forecast_cases.csv": {
+      "bytes": 380,
+      "sha256": "e2f22970262aa94674a640061389a00d267debcabad28e998c1c95fe037b2e2e"
+    },
+    "window_consistency_summary.csv": {
+      "bytes": 2929,
+      "sha256": "525773ad8c4540a00f7f3edf699e30a1aabcc6fbe6c7118966b81e4fd9f42f54"
+    }
+  }
+}

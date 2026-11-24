@@ -1,0 +1,26 @@
+dataset,model,samples,channels,ig_available,occlusion_available,koopman_available,data_verified
+Electricity,M0,8,6,True,True,False,True
+Electricity,M1,8,6,True,True,True,True
+Electricity,M2,8,6,True,True,True,True
+Electricity,M3,8,6,True,True,True,True
+Electricity,M4,8,6,True,True,True,True
+Financial,M0,8,2,True,True,False,True
+Financial,M1,8,2,True,True,True,True
+Financial,M2,8,2,True,True,True,True
+Financial,M3,8,2,True,True,True,True
+Financial,M4,8,2,True,True,True,True
+CMIP6 Wind,M0,8,5,True,True,False,True
+CMIP6 Wind,M1,8,5,True,True,True,True
+CMIP6 Wind,M2,8,5,True,True,True,True
+CMIP6 Wind,M3,8,5,True,True,True,True
+CMIP6 Wind,M4,8,5,True,True,True,True
+CMIP6 Pressure,M0,8,5,True,True,False,True
+CMIP6 Pressure,M1,8,5,True,True,True,True
+CMIP6 Pressure,M2,8,5,True,True,True,True
+CMIP6 Pressure,M3,8,5,True,True,True,True
+CMIP6 Pressure,M4,8,5,True,True,True,True
+Lorenz,M0,8,3,True,True,False,True
+Lorenz,M1,8,3,True,True,True,True
+Lorenz,M2,8,3,True,True,True,True
+Lorenz,M3,8,3,True,True,True,True
+Lorenz,M4,8,3,True,True,True,True

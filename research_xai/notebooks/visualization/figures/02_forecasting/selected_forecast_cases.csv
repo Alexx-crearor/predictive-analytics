@@ -1,0 +1,16 @@
+dataset,sample_position,test_window_index,channels,horizon
+Electricity,0,0,6,8
+Electricity,4,337,6,8
+Electricity,7,591,6,8
+Financial,0,0,2,8
+Financial,4,269,2,8
+Financial,7,471,2,8
+CMIP6 Wind,0,0,5,8
+CMIP6 Wind,4,271,5,8
+CMIP6 Wind,7,475,5,8
+CMIP6 Pressure,0,0,5,8
+CMIP6 Pressure,4,223,5,8
+CMIP6 Pressure,7,391,5,8
+Lorenz,0,0,3,8
+Lorenz,4,166,3,8
+Lorenz,7,291,3,8

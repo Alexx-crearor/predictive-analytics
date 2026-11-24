@@ -1,0 +1,13 @@
+dataset,best_model,channels_won
+CMIP6 Pressure,DLinear,2
+CMIP6 Pressure,LSTM,3
+CMIP6 Wind,DLinear,4
+CMIP6 Wind,LSTM,1
+Electricity,DLinear,3
+Electricity,M1,1
+Electricity,M2,1
+Electricity,M4,1
+Financial,DLinear,1
+Financial,LSTM,1
+Lorenz,LSTM,2
+Lorenz,M0,1

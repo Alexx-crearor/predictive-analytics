@@ -1,0 +1,26 @@
+﻿dataset,model,samples,lookback,horizon,channels,status
+Electricity,M0,8,100,8,6,PASS
+Electricity,M1,8,100,8,6,PASS
+Electricity,M2,8,100,8,6,PASS
+Electricity,M3,8,100,8,6,PASS
+Electricity,M4,8,100,8,6,PASS
+Financial,M0,8,100,8,2,PASS
+Financial,M1,8,100,8,2,PASS
+Financial,M2,8,100,8,2,PASS
+Financial,M3,8,100,8,2,PASS
+Financial,M4,8,100,8,2,PASS
+CMIP6 Wind,M0,8,100,8,5,PASS
+CMIP6 Wind,M1,8,100,8,5,PASS
+CMIP6 Wind,M2,8,100,8,5,PASS
+CMIP6 Wind,M3,8,100,8,5,PASS
+CMIP6 Wind,M4,8,100,8,5,PASS
+CMIP6 Pressure,M0,8,100,8,5,PASS
+CMIP6 Pressure,M1,8,100,8,5,PASS
+CMIP6 Pressure,M2,8,100,8,5,PASS
+CMIP6 Pressure,M3,8,100,8,5,PASS
+CMIP6 Pressure,M4,8,100,8,5,PASS
+Lorenz,M0,8,100,8,3,PASS
+Lorenz,M1,8,100,8,3,PASS
+Lorenz,M2,8,100,8,3,PASS
+Lorenz,M3,8,100,8,3,PASS
+Lorenz,M4,8,100,8,3,PASS

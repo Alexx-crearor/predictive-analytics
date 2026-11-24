@@ -1,0 +1,41 @@
+dataset,sample_position,winner
+CMIP6 Pressure,0,LSTM
+CMIP6 Pressure,1,DLinear
+CMIP6 Pressure,2,LSTM
+CMIP6 Pressure,3,LSTM
+CMIP6 Pressure,4,DLinear
+CMIP6 Pressure,5,DLinear
+CMIP6 Pressure,6,M2
+CMIP6 Pressure,7,M4
+CMIP6 Wind,0,DLinear
+CMIP6 Wind,1,M4
+CMIP6 Wind,2,LSTM
+CMIP6 Wind,3,DLinear
+CMIP6 Wind,4,M1
+CMIP6 Wind,5,M2
+CMIP6 Wind,6,LSTM
+CMIP6 Wind,7,LSTM
+Electricity,0,M1
+Electricity,1,M4
+Electricity,2,M1
+Electricity,3,DLinear
+Electricity,4,DLinear
+Electricity,5,LSTM
+Electricity,6,DLinear
+Electricity,7,DLinear
+Financial,0,LSTM
+Financial,1,DLinear
+Financial,2,LSTM
+Financial,3,DLinear
+Financial,4,DLinear
+Financial,5,LSTM
+Financial,6,LSTM
+Financial,7,DLinear
+Lorenz,0,M0
+Lorenz,1,LSTM
+Lorenz,2,LSTM
+Lorenz,3,M2
+Lorenz,4,LSTM
+Lorenz,5,M0
+Lorenz,6,M1
+Lorenz,7,LSTM

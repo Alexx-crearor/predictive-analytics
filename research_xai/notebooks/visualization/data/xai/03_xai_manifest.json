@@ -1,0 +1,465 @@
+{
+  "created_at_utc": "2026-11-24T09:04:39.307417+00:00",
+  "project": "DeepKoopFormer XAI",
+  "configuration": {
+    "datasets": [
+      "Electricity",
+      "Financial",
+      "CMIP6 Wind",
+      "CMIP6 Pressure",
+      "Lorenz"
+    ],
+    "models": [
+      "M0",
+      "M1",
+      "M2",
+      "M3",
+      "M4"
+    ],
+    "lookback": 100,
+    "horizon": 8,
+    "target_channel": 0,
+    "target_step_zero_based": 7,
+    "selected_windows_per_dataset": 8,
+    "seed": 7
+  },
+  "validation": {
+    "dataset_model_combinations": 25,
+    "expected_csv_files": 34,
+    "png_figures": 24,
+    "pdf_figures": 23,
+    "status": "PASS"
+  },
+  "files": [
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/03_xai_best_models.csv",
+      "size_bytes": 349,
+      "sha256": "daa59a4290edb31c9ae59ffc6a9003dbdb27ec770440b4c25f6cb23fc7840f91"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/03_xai_csv_validation.csv",
+      "size_bytes": 1472,
+      "sha256": "48e479377a4d23afc2b930f48b655c8a11de193a05677aa33651d8e3649b0bff"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/03_xai_master_metrics.csv",
+      "size_bytes": 6520,
+      "sha256": "32181fac5feaf256a81d3dbfe23438d61542ff5da08d704281a45477e942c188"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/03_xai_npz_validation.csv",
+      "size_bytes": 809,
+      "sha256": "38cb3bd7c189a5d485902cae255426f234fbc5d01ede7bd7e64c720dd6ed2f82"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/03_xai_report_summary.md",
+      "size_bytes": 3914,
+      "sha256": "6e6ac9a9da5af35eed3cffb154b909a40847811d76ed1ff23b42f273dbf49d29"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/cross_model_xai_metrics.csv",
+      "size_bytes": 5500,
+      "sha256": "7990da2689a632d45f05f09c9c7d9f2ee67b5536c0ed239ad28762f613b9daf3"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/faithfulness_summary.csv",
+      "size_bytes": 4531,
+      "sha256": "99d82f664082b58edb49451b998d3ab0ecb929076f77f889ae28e3c8b6a3843d"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/faithfulness_window_results.csv",
+      "size_bytes": 30422,
+      "sha256": "5627b8960df48a3ed4d4a37a6b7ba58e7eaf7417ba664e05cfa7f4411735e0c9"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_channel_attribution.csv",
+      "size_bytes": 6422,
+      "sha256": "f935681da967d225596a66ef0a04f6a006dd6d83f92d320cae9e80761d21a8a2"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_channel_summary.csv",
+      "size_bytes": 2271,
+      "sha256": "2a17ad21250ffad26dfdc522346ffac9cfa82b494007e9860ca0ebaf47d21d92"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_convergence_all_steps.csv",
+      "size_bytes": 11642,
+      "sha256": "b8de0de40b08b79278c26cf1ad7b4c7f6e383079e8c376654da07e7f02c44dfc"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_numerical_quality_32steps.csv",
+      "size_bytes": 4510,
+      "sha256": "fa5db62180333909a64d4af18006d13d979d59ddfbf940273e26c81e4eaa4be5"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_occlusion_agreement_summary.csv",
+      "size_bytes": 2909,
+      "sha256": "b3e81b642b658d69a8d76a0bfdebd3c5e7a31514eabcc7d504b33ac07dcf0686"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_occlusion_window_agreement.csv",
+      "size_bytes": 11742,
+      "sha256": "2f85ba0d9ccd00129784347599d8b802891abd2a086c373d228635947cf77159"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_robustness_all_observations.csv",
+      "size_bytes": 302826,
+      "sha256": "e721bdbc2a325a8b9b422565ab96d511b2154a6e00be77a64717f28b5424d075"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_robustness_alpha002.csv",
+      "size_bytes": 3892,
+      "sha256": "f8fefc8eee03074d4e5c4d702bfa1ff5b0603255d942992ecd99170d259c1b63"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_robustness_by_noise.csv",
+      "size_bytes": 9612,
+      "sha256": "2ce7a8b73c5616ebc4d18876cac0c32d9758f94b575b2ddfc7a29c7cea15e99f"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_temporal_profile_energy.csv",
+      "size_bytes": 11150,
+      "sha256": "b7ac2ec1e55456a464d62670731580c688ae753889daa3cce7ff1a93bf7476a1"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_temporal_profile_financial.csv",
+      "size_bytes": 11235,
+      "sha256": "3f17db64f340ee40d6f1543beafabf614094fc990e123cddf8e7173d36f2e459"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_temporal_profile_lorenz.csv",
+      "size_bytes": 11212,
+      "sha256": "3fda450114967fee7daf4deef11918b9d2aaec04567dca7b8534b10a28c13769"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_temporal_profile_pressure.csv",
+      "size_bytes": 11169,
+      "sha256": "1408be0d4898d8118162328626d146a1c4cde05b2d27cf7a7b8454a747779a50"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_temporal_profile_wind.csv",
+      "size_bytes": 11167,
+      "sha256": "d5d8f92c2b4043905196b5ccd29f206a9db312fa4695f541dc483acb49d20ebe"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/ig_temporal_summary.csv",
+      "size_bytes": 2920,
+      "sha256": "dc3427c235f213a40555a374cac362657876782abb6308e8356859dffb8765aa"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/koopman_singular_spectra.csv",
+      "size_bytes": 71101,
+      "sha256": "2d528243411297d342c540e4170937257eb51ab668b64df2c9635afe74cced77"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/koopman_spectral_diagnostics.csv",
+      "size_bytes": 3688,
+      "sha256": "32a035d2ad97faafea23d8d053e58f10ab113b923bc1f0e714a34efd7ff7b1b6"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/latent_diagnostics_summary.csv",
+      "size_bytes": 1752,
+      "sha256": "24b8700f8ba801dd3b67d5a57b42aff00c030afcb20d66c9c5b6f98f9cb4401b"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/latent_rollout_norms.csv",
+      "size_bytes": 13284,
+      "sha256": "b9ab3bfb6322358d2835d6314235667e6801052e5d376bc93bb37c01ab00c046"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/latent_shift_gap_by_step.csv",
+      "size_bytes": 10299,
+      "sha256": "3f5422801efbe2b57a98fa2e6b4a21161e0b370bdfcc0ca22f5277d457cae815"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/m1_single_step_contraction.csv",
+      "size_bytes": 423,
+      "sha256": "9faf19a2486282b873daf8fb7a03e6eff5d68b7e1d4c6bb158400bb1ef241636"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/m4_m1_adverse_case_explanations.csv",
+      "size_bytes": 1148,
+      "sha256": "8c5afd4cbf7424088bc29c68596bf51bb8d97b439cbef3e107f4cc733c5aac1f"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/m4_m1_adverse_case_selection.csv",
+      "size_bytes": 627,
+      "sha256": "c8068596e2fc319d31f0ae331e7e8384a7f6d3af54ae707b6a421d022a87992d"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/m4_vs_m1_xai_comparison.csv",
+      "size_bytes": 874,
+      "sha256": "6640df33b57b51f524d2696dc1308f2eaba27ebac6d5ee7abc3514b61568447c"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/occlusion_block_importance.csv",
+      "size_bytes": 21232,
+      "sha256": "c522d893ae5d4e7768689ede969370b68511a0769cfd36c87654d93aa75f8a04"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/occlusion_profile_energy.csv",
+      "size_bytes": 1098,
+      "sha256": "7ad5814a3ab27856f6f16ee6ebef4e36fc54a894da272245f971b4dcfdea73ed"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/occlusion_profile_financial.csv",
+      "size_bytes": 1117,
+      "sha256": "82477bcf150c39e0c49e2272098bcae6766c60f9c85fe87916c61f8c3060757b"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/occlusion_profile_lorenz.csv",
+      "size_bytes": 1110,
+      "sha256": "b2cb85a4f7c7154967086a97d9c5b934b892b944822889759633a4578e32b95d"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/occlusion_profile_pressure.csv",
+      "size_bytes": 1097,
+      "sha256": "bd157be8f5762dc031eccc23f09c881733c51f22276e0dcf4a4545fad596c14c"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/occlusion_profile_wind.csv",
+      "size_bytes": 1101,
+      "sha256": "41f10afe36db71934df2e31bbee07a563df7ce8d37aeb575548f93d2ea40a12e"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/data/xai/occlusion_temporal_summary.csv",
+      "size_bytes": 2930,
+      "sha256": "dc68eda8b4d1d3158a5f05102c381fe56d699689ee64cbfc1d8a71dd887781ee"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_energy.png",
+      "size_bytes": 131863,
+      "sha256": "13ba6a245f546f0ba4c806dcdf6c617ae0c53f9ffaeb4ec7f76a1b527dd2823d"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_energy.pdf",
+      "size_bytes": 36374,
+      "sha256": "03937e590156e3e37fcd5126b931662e5bf81be3e148dd927ab7d24b2e3c9cf3"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_financial.png",
+      "size_bytes": 130072,
+      "sha256": "edd294b96441c762475f61e1887ce03de59c66fa22b8490e6115c3dba72821b7"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_financial.pdf",
+      "size_bytes": 36928,
+      "sha256": "0361674274f8061e05b571e5f844e2cfb036d5b6e2d27b60e7c49d1ab9dc7c64"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_wind.png",
+      "size_bytes": 133062,
+      "sha256": "d6d1a37da9b96ab238df53d61756832da861932388db02f4bd361001d3ce6e15"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_wind.pdf",
+      "size_bytes": 36460,
+      "sha256": "02874fa20ab68771b4c3a7820854a7ba6cb9fd7f7e6eb01875c4c176e684ae81"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_pressure.png",
+      "size_bytes": 134066,
+      "sha256": "e85c4230015d24d632939147e54f1ab25db88a3f91cacf26511777d25a9d0fe8"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_pressure.pdf",
+      "size_bytes": 36766,
+      "sha256": "f9c0b6980d4d615290e35ed09020362b9c31bd187019c680bc95fad172c2f898"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_lorenz.png",
+      "size_bytes": 129815,
+      "sha256": "dd7ebd232fe248914112f02812b1dc7e8d253e0d556503edaffa7760e3312daa"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig01_ig_temporal_lorenz.pdf",
+      "size_bytes": 36638,
+      "sha256": "fee8e3459dd269c78a7d98f44571d45a47b8a130ed02e91852ca3c6f62842383"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig02_ig_recent20_comparison.png",
+      "size_bytes": 131008,
+      "sha256": "955ec3b0d050607c16f80aa74b1a8c2c27bd83d26401457cce2096320958d468"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig02_ig_recent20_comparison.pdf",
+      "size_bytes": 28023,
+      "sha256": "55c03afd0ff6e626ec49a2af305edf91bd7c87946ca4ed9391d17fade8867d75"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig03_ig_channel_importance.png",
+      "size_bytes": 723019,
+      "sha256": "bb7555a653664ed57b0f42d6f9ca92f6a56ea2eb98b558a7f3b459e6b0258e50"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig03_ig_channel_importance.pdf",
+      "size_bytes": 36349,
+      "sha256": "1c676d9a97f7da11c31ee39a553de015a5d7d3f04050e8a719f56ffbc9874c6e"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig04_ig_target_channel_share.png",
+      "size_bytes": 212829,
+      "sha256": "d6e15649161203aef79512450cf1cfdd6337b749dd0f8aa6cb3b0baaaa4acf5f"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig04_ig_target_channel_share.pdf",
+      "size_bytes": 26361,
+      "sha256": "44204b4ac729586dad7a7ac8dd68a5077a15e2edef9ad562cf0c1d4bd4a4d09d"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig05_occlusion_temporal_heatmap.png",
+      "size_bytes": 767743,
+      "sha256": "232c037cefc12b64182656d6b82e8d2da1557e9db3cfc8fb50551257199c0921"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig05_occlusion_temporal_heatmap.pdf",
+      "size_bytes": 41701,
+      "sha256": "23cfc867b61d556803feac323be9f1af491d985c7f83f5aeb744438521615fb8"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig06_occlusion_recent20.png",
+      "size_bytes": 137921,
+      "sha256": "3bf3bd9aeb5ae1d1215e1d81b24408bd4760a9784b610dc4262514196fbb30bf"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig06_occlusion_recent20.pdf",
+      "size_bytes": 28696,
+      "sha256": "e16cf0980e49b59ccfb5b8e734534a7f7fe72cc511a0250b45a3a99183aedbd9"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig07_ig_occlusion_agreement.png",
+      "size_bytes": 301501,
+      "sha256": "2dd508e1274e664fd2fcb5866e44bbfeb3ce441d6e0801c87147d0f933042e32"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig07_ig_occlusion_agreement.pdf",
+      "size_bytes": 34121,
+      "sha256": "b17675050641b207e5c26814609d3637f20749746f2e42db81b393ff1c79a89d"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig08_ig_occlusion_window_agreement.png",
+      "size_bytes": 217189,
+      "sha256": "f6fa818afefe3d9dd03da84c3dcbd6d4d61e23a145ab8d00c4ac125c0c94efd8"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig08_ig_occlusion_window_agreement.pdf",
+      "size_bytes": 39119,
+      "sha256": "07a900d8d4ad4cb6f8412b8465fc60ac36656f99530e563e5c586b6443fc3325"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig09_ig_convergence.png",
+      "size_bytes": 823183,
+      "sha256": "3ab8f307e1fd6c43e9f04fc9151c3f40ea718b22754e8036463eb353b410a51e"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig09_ig_convergence.pdf",
+      "size_bytes": 39589,
+      "sha256": "6cee80c8fc5fdc698ead31496cb7cc30fed020c7a0c8ad69cff4891ee5ff14d2"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig10_ig_quality_32steps.png",
+      "size_bytes": 310345,
+      "sha256": "cd7757bc83de9922143e00cab3c56cd0beeaf9ae38e3c8f8423c4a18a737d755"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig10_ig_quality_32steps.pdf",
+      "size_bytes": 38764,
+      "sha256": "e4cb56045101c903d4b812ddae8b6e43405afc47c16222e810cf64ae1a5c3c8c"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig11_faithfulness_perturbation.png",
+      "size_bytes": 271754,
+      "sha256": "70cd2eab12097e68b70c69c5abaa10009807922cec2ef8673170c9aebbbcae55"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig11_faithfulness_perturbation.pdf",
+      "size_bytes": 29928,
+      "sha256": "f378c54babf80bdfbfaeb059be59daac3fc33835647fd0439e49f45ae6034e33"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig12_faithfulness_winrate.png",
+      "size_bytes": 218378,
+      "sha256": "c16592f46602fceca5080884305a39b8b189683e46d48701782a326a49a4c518"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig12_faithfulness_winrate.pdf",
+      "size_bytes": 34613,
+      "sha256": "3331eacdf256577ca03039be0e98fb9635295c6a76b326e9ce2bb3d876cdba7b"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig13_koopman_spectral_stability.png",
+      "size_bytes": 327252,
+      "sha256": "968c739a2cd1b69f0e3d0a60fd03d13701fb7d0ff39797a5c844ea12423f834d"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig13_koopman_spectral_stability.pdf",
+      "size_bytes": 38399,
+      "sha256": "362c6fc5312a0c05b26de14f3b1f5029b59b8dc0f7a3842d436679dbc01a9376"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig14_koopman_singular_spectrum.png",
+      "size_bytes": 765181,
+      "sha256": "04bf858f539dc8c5dada5956d078be93b0a2c13f88fc3d7820b82dc53dda63cd"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig14_koopman_singular_spectrum.pdf",
+      "size_bytes": 42309,
+      "sha256": "44efe0069a8bb2d672f022efe462b4df2400b67d144232f40fa5c1b3b19ea80e"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig15_latent_dynamics.png",
+      "size_bytes": 1419561,
+      "sha256": "6c37e2c87072d4d31ff00ff8f04ed2e2636dfe093d8ead8733c2e25061240cac"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig15_latent_dynamics.pdf",
+      "size_bytes": 52999,
+      "sha256": "3cd7f2135d0dc9038085504f7e3af0da8db97699d22590aa178e7b56d0a6f5de"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig16_latent_diagnostics_summary.png",
+      "size_bytes": 235547,
+      "sha256": "da3f49e78b027feb1478c91a043d04b5d7343253131351832f85f26fcceba0de"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig17_ig_robustness_noise.png",
+      "size_bytes": 1229917,
+      "sha256": "62e9da8684968d0c69736dfa6983345f8fcb2748fb802ca2b8d6ee83b85c1e5f"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig17_ig_robustness_noise.pdf",
+      "size_bytes": 57888,
+      "sha256": "1acf386f9c75583a8aad7fc0b028373df11b46efc4865cce021bc05b541b7aef"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig18_ig_robustness_summary.png",
+      "size_bytes": 581122,
+      "sha256": "f5f53083c383d2f52fbf2eba4945afdf7a9107e29c37f9a908e08d425e14d848"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig18_ig_robustness_summary.pdf",
+      "size_bytes": 44755,
+      "sha256": "8ae7bdf6aa1523f656acfcb06ec85ec04acd07ff9720be3b698079c4f5203fe0"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig19_cross_model_xai_tradeoffs.png",
+      "size_bytes": 515654,
+      "sha256": "401628b33afa47a46cd644fd953c1e001736d3c54ee1fa0a01540e8e6b3e62ff"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig19_cross_model_xai_tradeoffs.pdf",
+      "size_bytes": 48461,
+      "sha256": "8ec64326f72972310e2f0c3a31c5f28a8d11dcb37ff2197521f48bbb2c531277"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig20_m4_m1_adverse_case_ig.png",
+      "size_bytes": 536007,
+      "sha256": "2b8ae3da085863283ef9f6129bd884aac5790600799b9858bea64c64426e59fa"
+    },
+    {
+      "path": "research_xai/notebooks/visualization/figures/03_xai/fig20_m4_m1_adverse_case_ig.pdf",
+      "size_bytes": 128656,
+      "sha256": "ac8562a7cb8a9700ce5815666f0454958f2b09c1a94e00e9d630a47fbf2b7ed4"
+    }
+  ]
+}

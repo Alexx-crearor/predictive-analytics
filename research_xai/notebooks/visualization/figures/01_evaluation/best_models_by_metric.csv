@@ -1,0 +1,6 @@
+dataset,Best MSE Model,Best MAE Model,Same Winner
+CMIP6 Pressure,DLinear,DLinear,True
+CMIP6 Wind,DLinear,DLinear,True
+Electricity,DLinear,DLinear,True
+Financial,DLinear,DLinear,True
+Lorenz,LSTM,LSTM,True

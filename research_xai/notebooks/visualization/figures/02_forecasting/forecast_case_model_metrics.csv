@@ -1,0 +1,71 @@
+dataset,case_type,sample_position,test_window_index,channel,model,window_mse
+Electricity,Most favorable to M4,7,591,0,M0,0.00933353764994127
+Electricity,Most favorable to M4,7,591,0,M1,0.030528902172237693
+Electricity,Most favorable to M4,7,591,0,M2,0.008524815345469339
+Electricity,Most favorable to M4,7,591,0,M3,0.00455585679013959
+Electricity,Most favorable to M4,7,591,0,M4,0.015869820795224143
+Electricity,Most favorable to M4,7,591,0,LSTM,0.0010593206199320804
+Electricity,Most favorable to M4,7,591,0,DLinear,0.0009640446774197287
+Electricity,Least favorable to M4,4,337,0,M0,0.009480613603387589
+Electricity,Least favorable to M4,4,337,0,M1,0.008495579633785777
+Electricity,Least favorable to M4,4,337,0,M2,0.00818897324075385
+Electricity,Least favorable to M4,4,337,0,M3,0.010565355975869384
+Electricity,Least favorable to M4,4,337,0,M4,0.014720012160722717
+Electricity,Least favorable to M4,4,337,0,LSTM,0.0023094544703998743
+Electricity,Least favorable to M4,4,337,0,DLinear,0.0016484654124715448
+Financial,Most favorable to M4,0,0,0,M0,0.0011305241685821699
+Financial,Most favorable to M4,0,0,0,M1,0.000938040903042503
+Financial,Most favorable to M4,0,0,0,M2,0.0009040249226792696
+Financial,Most favorable to M4,0,0,0,M3,0.0014948668830884193
+Financial,Most favorable to M4,0,0,0,M4,0.0015689138543830694
+Financial,Most favorable to M4,0,0,0,LSTM,0.000606640189490748
+Financial,Most favorable to M4,0,0,0,DLinear,0.001521257774916407
+Financial,Least favorable to M4,5,336,0,M0,0.0024321978718577775
+Financial,Least favorable to M4,5,336,0,M1,0.0014431159669121563
+Financial,Least favorable to M4,5,336,0,M2,0.0007535290742284317
+Financial,Least favorable to M4,5,336,0,M3,0.0019374050898339767
+Financial,Least favorable to M4,5,336,0,M4,0.01761628050477082
+Financial,Least favorable to M4,5,336,0,LSTM,0.00013231895481302658
+Financial,Least favorable to M4,5,336,0,DLinear,0.00039332927665913786
+CMIP6 Wind,Most favorable to M4,3,203,0,M0,0.06727869509686457
+CMIP6 Wind,Most favorable to M4,3,203,0,M1,0.10844517141455856
+CMIP6 Wind,Most favorable to M4,3,203,0,M2,0.06356399219122177
+CMIP6 Wind,Most favorable to M4,3,203,0,M3,0.026253293987129896
+CMIP6 Wind,Most favorable to M4,3,203,0,M4,0.032173498628080895
+CMIP6 Wind,Most favorable to M4,3,203,0,LSTM,0.013932209141908049
+CMIP6 Wind,Most favorable to M4,3,203,0,DLinear,0.010235604823919338
+CMIP6 Wind,Least favorable to M4,7,475,0,M0,0.015732505266076592
+CMIP6 Wind,Least favorable to M4,7,475,0,M1,0.012223091977561433
+CMIP6 Wind,Least favorable to M4,7,475,0,M2,0.016355021807423008
+CMIP6 Wind,Least favorable to M4,7,475,0,M3,0.021495024193293487
+CMIP6 Wind,Least favorable to M4,7,475,0,M4,0.015450233864052441
+CMIP6 Wind,Least favorable to M4,7,475,0,LSTM,0.007853680760074137
+CMIP6 Wind,Least favorable to M4,7,475,0,DLinear,0.015820018401860057
+CMIP6 Pressure,Most favorable to M4,7,391,0,M0,0.053849296382900924
+CMIP6 Pressure,Most favorable to M4,7,391,0,M1,0.07109561260329089
+CMIP6 Pressure,Most favorable to M4,7,391,0,M2,0.03658545431673499
+CMIP6 Pressure,Most favorable to M4,7,391,0,M3,0.0060052585171108674
+CMIP6 Pressure,Most favorable to M4,7,391,0,M4,0.0031819151551054636
+CMIP6 Pressure,Most favorable to M4,7,391,0,LSTM,0.02752893646564969
+CMIP6 Pressure,Most favorable to M4,7,391,0,DLinear,0.017869533582057007
+CMIP6 Pressure,Least favorable to M4,2,111,0,M0,0.009791610972139875
+CMIP6 Pressure,Least favorable to M4,2,111,0,M1,0.0070392071017817415
+CMIP6 Pressure,Least favorable to M4,2,111,0,M2,0.017367754513260447
+CMIP6 Pressure,Least favorable to M4,2,111,0,M3,0.004492256166798825
+CMIP6 Pressure,Least favorable to M4,2,111,0,M4,0.012500689852833702
+CMIP6 Pressure,Least favorable to M4,2,111,0,LSTM,0.0012701568059956259
+CMIP6 Pressure,Least favorable to M4,2,111,0,DLinear,0.0010389054640675965
+Lorenz,Most favorable to M4,1,41,0,M0,3.851113197850253e-05
+Lorenz,Most favorable to M4,1,41,0,M1,0.00012502669168457103
+Lorenz,Most favorable to M4,1,41,0,M2,0.00012963963643386478
+Lorenz,Most favorable to M4,1,41,0,M3,0.000389782177971032
+Lorenz,Most favorable to M4,1,41,0,M4,0.0003919184786895791
+Lorenz,Most favorable to M4,1,41,0,LSTM,4.588182196840762e-05
+Lorenz,Most favorable to M4,1,41,0,DLinear,0.00017739417072526464
+Lorenz,Least favorable to M4,2,83,0,M0,8.565195624221644e-05
+Lorenz,Least favorable to M4,2,83,0,M1,0.00012167838479326676
+Lorenz,Least favorable to M4,2,83,0,M2,1.542208105176357e-05
+Lorenz,Least favorable to M4,2,83,0,M3,0.00046792201003142964
+Lorenz,Least favorable to M4,2,83,0,M4,0.0024812383689050144
+Lorenz,Least favorable to M4,2,83,0,LSTM,9.764801719658323e-06
+Lorenz,Least favorable to M4,2,83,0,DLinear,0.0004822245875031328

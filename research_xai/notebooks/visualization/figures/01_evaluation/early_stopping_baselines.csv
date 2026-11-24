@@ -1,0 +1,11 @@
+dataset,model,best_epoch,stopped_epoch,epochs_saved,early_stopped,saved_pct,early_stopped_flag
+Electricity,DLinear,300,1100,2900,True,72.5,True
+Electricity,LSTM,100,900,3100,True,77.5,True
+Financial,DLinear,600,1400,2600,True,65.0,True
+Financial,LSTM,200,1000,3000,True,75.0,True
+CMIP6 Wind,DLinear,300,1100,2900,True,72.5,True
+CMIP6 Wind,LSTM,100,900,3100,True,77.5,True
+CMIP6 Pressure,DLinear,600,1400,2600,True,65.0,True
+CMIP6 Pressure,LSTM,100,900,3100,True,77.5,True
+Lorenz,DLinear,1000,1800,2200,True,55.0,True
+Lorenz,LSTM,300,1100,2900,True,72.5,True
