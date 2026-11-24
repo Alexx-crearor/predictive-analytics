@@ -1,0 +1,33 @@
+{
+  "dataset": "CMIP6 Wind",
+  "dataset_key": "wind",
+  "model": "DLinear",
+  "patch": 100,
+  "horizon": 8,
+  "seed": 7,
+  "params": 1616,
+  "status": "completed",
+  "data_hash": "7a143c23e86747800f4a7b137b869feb440281308cc814a6bb9379ea495525d5",
+  "config": {
+    "epochs": 4000,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "lambda_align": 0.0,
+    "ema_decay": 0.99,
+    "max_align_steps": 2,
+    "val_every": 100,
+    "checkpoint_every": 200,
+    "grad_clip": 1.0,
+    "early_stopping_patience": 800,
+    "early_stopping_min_delta": 1e-05,
+    "seed": 7
+  },
+  "target_epochs": 4000,
+  "completed_epochs": 1100,
+  "epochs_saved": 2900,
+  "early_stopped": true,
+  "best_epoch": 300,
+  "best_val_mse": 0.0169523399323225,
+  "test_mse": 0.02321473400131995,
+  "test_mae": 0.11475104163674747
+}

@@ -1,0 +1,33 @@
+{
+  "dataset": "CMIP6 Pressure",
+  "dataset_key": "pressure",
+  "model": "LSTM",
+  "patch": 100,
+  "horizon": 8,
+  "seed": 7,
+  "params": 43432,
+  "status": "completed",
+  "data_hash": "2b6f91bb5ed8e1a602d81d1d77c47acc7e4acb84e1f92fb794175c54e7839fe8",
+  "config": {
+    "epochs": 4000,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "lambda_align": 0.0,
+    "ema_decay": 0.99,
+    "max_align_steps": 2,
+    "val_every": 100,
+    "checkpoint_every": 200,
+    "grad_clip": 1.0,
+    "early_stopping_patience": 800,
+    "early_stopping_min_delta": 1e-05,
+    "seed": 7
+  },
+  "target_epochs": 4000,
+  "completed_epochs": 900,
+  "epochs_saved": 3100,
+  "early_stopped": true,
+  "best_epoch": 100,
+  "best_val_mse": 0.0037902503749610832,
+  "test_mse": 0.004728161756481443,
+  "test_mae": 0.05019304192796045
+}

@@ -32,7 +32,7 @@ class TrainConfig:
 
 
 def set_seed(seed: int):
-    """Cố định seed để hỗ trợ tái lập thí nghiệm."""
+    """Cá»‘ Ä‘á»‹nh seed Ä‘á»ƒ há»— trá»£ tÃ¡i láº­p thÃ­ nghiá»‡m."""
 
     random.seed(seed)
     np.random.seed(seed)
@@ -43,7 +43,7 @@ def set_seed(seed: int):
 
 
 def get_rng_state():
-    """Lưu trạng thái ngẫu nhiên để resume training."""
+    """LÆ°u tráº¡ng thÃ¡i ngáº«u nhiÃªn Ä‘á»ƒ resume training."""
 
     state = {
         "python": random.getstate(),
@@ -58,7 +58,7 @@ def get_rng_state():
 
 
 def restore_rng_state(state):
-    """Khôi phục trạng thái ngẫu nhiên từ checkpoint."""
+    """KhÃ´i phá»¥c tráº¡ng thÃ¡i ngáº«u nhiÃªn tá»« checkpoint."""
 
     random.setstate(state["python"])
     np.random.set_state(state["numpy"])
@@ -69,7 +69,7 @@ def restore_rng_state(state):
 
 
 def copy_weights_to_cpu(model):
-    """Sao chép trọng số tốt nhất về CPU."""
+    """Sao chÃ©p trá»ng sá»‘ tá»‘t nháº¥t vá» CPU."""
 
     return {
         name: tensor.detach().cpu().clone()
@@ -78,7 +78,7 @@ def copy_weights_to_cpu(model):
 
 
 def save_checkpoint(path, payload):
-    """Lưu checkpoint an toàn qua file tạm."""
+    """LÆ°u checkpoint an toÃ n qua file táº¡m."""
 
     path = Path(path)
     temp_path = path.with_suffix(path.suffix + ".tmp")
@@ -88,7 +88,7 @@ def save_checkpoint(path, payload):
 
 
 def calculate_data_hash(*tensors):
-    """Tạo mã kiểm tra dữ liệu để tránh resume nhầm."""
+    """Táº¡o mÃ£ kiá»ƒm tra dá»¯ liá»‡u Ä‘á»ƒ trÃ¡nh resume nháº§m."""
 
     digest = hashlib.sha256()
 
@@ -103,7 +103,7 @@ def calculate_data_hash(*tensors):
 
 @torch.no_grad()
 def update_ema(teacher, student, decay):
-    """Cập nhật teacher bằng trung bình trượt trọng số student."""
+    """Cáº­p nháº­t teacher báº±ng trung bÃ¬nh trÆ°á»£t trá»ng sá»‘ student."""
 
     student_parameters = dict(student.named_parameters())
 
@@ -113,7 +113,7 @@ def update_ema(teacher, student, decay):
             alpha=1.0 - decay
         )
 
-    # Đồng bộ các buffer không phải tham số học
+    # Äá»“ng bá»™ cÃ¡c buffer khÃ´ng pháº£i tham sá»‘ há»c
     student_buffers = dict(student.named_buffers())
 
     for name, buffer in teacher.named_buffers():
@@ -122,7 +122,7 @@ def update_ema(teacher, student, decay):
 
 @torch.no_grad()
 def evaluate_mse(model, loader, device):
-    """Đánh giá MSE trên tập validation."""
+    """ÄÃ¡nh giÃ¡ MSE trÃªn táº­p validation."""
 
     model.eval()
 
@@ -156,27 +156,27 @@ def train_model(
     config=None,
     resume=True
 ):
-    """Huấn luyện một cấu hình của M0, M1, M2, M3 hoặc M4."""
+    """Huáº¥n luyá»‡n má»™t cáº¥u hÃ¬nh cá»§a M0, M1, M2, M3 hoáº·c M4."""
 
     if config is None:
         config = TrainConfig()
 
-    if variant not in {"M0", "M1", "M2", "M3", "M4"}:
-        raise ValueError("Biến thể mô hình không hợp lệ")
+    if variant not in {"M0", "M1", "M2", "M3", "M4", "LSTM", "DLinear"}:
+        raise ValueError("Biáº¿n thá»ƒ mÃ´ hÃ¬nh khÃ´ng há»£p lá»‡")
 
     if config.epochs < 1 or config.batch_size < 1:
-        raise ValueError("epochs và batch_size phải dương")
+        raise ValueError("epochs vÃ  batch_size pháº£i dÆ°Æ¡ng")
 
     if not 0 <= config.ema_decay < 1:
-        raise ValueError("ema_decay phải nằm trong [0, 1)")
+        raise ValueError("ema_decay pháº£i náº±m trong [0, 1)")
 
     if config.val_every < 1 or config.checkpoint_every < 1:
-        raise ValueError("Khoảng lưu và đánh giá phải dương")
+        raise ValueError("Khoáº£ng lÆ°u vÃ  Ä‘Ã¡nh giÃ¡ pháº£i dÆ°Æ¡ng")
 
     if config.lambda_align < 0 or config.grad_clip <= 0:
-        raise ValueError("Cấu hình loss hoặc gradient không hợp lệ")
+        raise ValueError("Cáº¥u hÃ¬nh loss hoáº·c gradient khÃ´ng há»£p lá»‡")
 
-    # Đưa dữ liệu về CPU để tránh chiếm toàn bộ VRAM
+    # ÄÆ°a dá»¯ liá»‡u vá» CPU Ä‘á»ƒ trÃ¡nh chiáº¿m toÃ n bá»™ VRAM
     x_train, y_train, x_val, y_val = [
         tensor.detach().to(
             "cpu", dtype=torch.float32
@@ -185,28 +185,28 @@ def train_model(
     ]
 
     if x_train.ndim != 3 or x_val.ndim != 3:
-        raise ValueError("Input phải có dạng (B, L, C)")
+        raise ValueError("Input pháº£i cÃ³ dáº¡ng (B, L, C)")
 
     if y_train.ndim != 2 or y_val.ndim != 2:
-        raise ValueError("Nhãn phải có dạng (B, C * H)")
+        raise ValueError("NhÃ£n pháº£i cÃ³ dáº¡ng (B, C * H)")
 
     if len(x_train) == 0 or len(x_val) == 0:
-        raise ValueError("Train và validation không được rỗng")
+        raise ValueError("Train vÃ  validation khÃ´ng Ä‘Æ°á»£c rá»—ng")
 
     if x_train.shape[1:] != x_val.shape[1:]:
-        raise ValueError("Shape input không khớp")
+        raise ValueError("Shape input khÃ´ng khá»›p")
 
     if (
         y_train.shape[1] != y_val.shape[1]
         or y_train.shape[1] % x_train.shape[2] != 0
     ):
-        raise ValueError("Shape nhãn không hợp lệ")
+        raise ValueError("Shape nhÃ£n khÃ´ng há»£p lá»‡")
 
     for tensor in (x_train, y_train, x_val, y_val):
         if not torch.isfinite(tensor).all().item():
-            raise ValueError("Dữ liệu chứa NaN hoặc Inf")
+            raise ValueError("Dá»¯ liá»‡u chá»©a NaN hoáº·c Inf")
 
-    # Kiểm tra dữ liệu có thay đổi giữa các lần chạy không
+    # Kiá»ƒm tra dá»¯ liá»‡u cÃ³ thay Ä‘á»•i giá»¯a cÃ¡c láº§n cháº¡y khÃ´ng
     data_hash = calculate_data_hash(
         x_train, y_train, x_val, y_val
     )
@@ -223,7 +223,7 @@ def train_model(
 
     model = model.to(device)
 
-    # Khởi tạo optimizer cho toàn bộ tham số của mô hình
+    # Khá»Ÿi táº¡o optimizer cho toÃ n bá»™ tham sá»‘ cá»§a mÃ´ hÃ¬nh
     optimizer = torch.optim.Adam(
         model.parameters(),
         lr=config.lr
@@ -234,13 +234,13 @@ def train_model(
         max_steps=config.max_align_steps
     )
 
-    # Chỉ M3 và M4 sử dụng Alignment Loss
+    # Chá»‰ M3 vÃ  M4 sá»­ dá»¥ng Alignment Loss
     use_alignment = variant in {"M3", "M4"}
 
     teacher = None
 
     if use_alignment:
-        # Teacher ban đầu là bản sao của backbone
+        # Teacher ban Ä‘áº§u lÃ  báº£n sao cá»§a backbone
         teacher = deepcopy(model.backbone).to(device)
         teacher.requires_grad_(False)
         teacher.eval()
@@ -265,7 +265,7 @@ def train_model(
     best_epoch = 0
     best_weights = None
 
-    # Khôi phục quá trình huấn luyện nếu đã có checkpoint
+    # KhÃ´i phá»¥c quÃ¡ trÃ¬nh huáº¥n luyá»‡n náº¿u Ä‘Ã£ cÃ³ checkpoint
     if resume and latest_path.exists():
         checkpoint = torch.load(
             latest_path,
@@ -277,10 +277,10 @@ def train_model(
             checkpoint["variant"] != variant
             or checkpoint["config"] != asdict(config)
         ):
-            raise ValueError("Checkpoint không khớp cấu hình")
+            raise ValueError("Checkpoint khÃ´ng khá»›p cáº¥u hÃ¬nh")
 
         if checkpoint["data_hash"] != data_hash:
-            raise ValueError("Dữ liệu không khớp checkpoint")
+            raise ValueError("Dá»¯ liá»‡u khÃ´ng khá»›p checkpoint")
 
         model.load_state_dict(checkpoint["model"])
 
@@ -297,16 +297,16 @@ def train_model(
         best_epoch = checkpoint["best_epoch"]
         best_weights = checkpoint["best_weights"]
 
-        # Khôi phục thứ tự lấy mẫu và các phép ngẫu nhiên
+        # KhÃ´i phá»¥c thá»© tá»± láº¥y máº«u vÃ  cÃ¡c phÃ©p ngáº«u nhiÃªn
         restore_rng_state(checkpoint["rng"])
 
-        print(f"Resume từ epoch {start_epoch}")
+        print(f"Resume tá»« epoch {start_epoch}")
 
     else:
         set_seed(config.seed)
 
     def save_latest(epoch):
-        """Lưu đầy đủ trạng thái để tiếp tục huấn luyện."""
+        """LÆ°u Ä‘áº§y Ä‘á»§ tráº¡ng thÃ¡i Ä‘á»ƒ tiáº¿p tá»¥c huáº¥n luyá»‡n."""
 
         payload = {
             "epoch": epoch,
@@ -327,7 +327,7 @@ def train_model(
         }
 
         save_checkpoint(latest_path, payload)
-    # Theo dõi số epoch thực tế và trạng thái dừng sớm
+    # Theo dÃµi sá»‘ epoch thá»±c táº¿ vÃ  tráº¡ng thÃ¡i dá»«ng sá»›m
     last_epoch = start_epoch
     early_stopped = False
     # SYNC_RUNTIME_225_V1: gioi han thoi gian chi khi co bien moi truong.
@@ -347,7 +347,7 @@ def train_model(
 
             optimizer.zero_grad(set_to_none=True)
 
-            # Lấy latent states khi cần tính Alignment Loss
+            # Láº¥y latent states khi cáº§n tÃ­nh Alignment Loss
             if use_alignment:
                 predictions, states = model(
                     inputs,
@@ -372,7 +372,7 @@ def train_model(
                     (), device=device
                 )
 
-            # Kết hợp forecasting loss và alignment loss
+            # Káº¿t há»£p forecasting loss vÃ  alignment loss
             loss = (
                 loss_forecast
                 + config.lambda_align * loss_alignment
@@ -380,10 +380,10 @@ def train_model(
 
             if not torch.isfinite(loss).item():
                 raise FloatingPointError(
-                    f"Loss không hợp lệ tại epoch {epoch + 1}"
+                    f"Loss khÃ´ng há»£p lá»‡ táº¡i epoch {epoch + 1}"
                 )
 
-            # Lan truyền gradient và cập nhật tham số
+            # Lan truyá»n gradient vÃ  cáº­p nháº­t tham sá»‘
             loss.backward()
 
             torch.nn.utils.clip_grad_norm_(
@@ -393,7 +393,7 @@ def train_model(
 
             optimizer.step()
 
-            # Cập nhật EMA teacher sau mỗi lần optimizer cập nhật
+            # Cáº­p nháº­t EMA teacher sau má»—i láº§n optimizer cáº­p nháº­t
             if teacher is not None:
                 update_ema(
                     teacher,
@@ -418,7 +418,7 @@ def train_model(
         val_mse = None
         stop_training = False
 
-        # Đánh giá mô hình theo chu kỳ validation
+        # ÄÃ¡nh giÃ¡ mÃ´ hÃ¬nh theo chu ká»³ validation
         if (
             current_epoch % config.val_every == 0
             or current_epoch == config.epochs
@@ -427,13 +427,13 @@ def train_model(
                 model, val_loader, device
             )
 
-            # Kiểm tra validation có cải thiện đủ mức yêu cầu không
+            # Kiá»ƒm tra validation cÃ³ cáº£i thiá»‡n Ä‘á»§ má»©c yÃªu cáº§u khÃ´ng
             if val_mse < best_val - config.early_stopping_min_delta:
                 best_val = val_mse
                 best_epoch = current_epoch
                 best_weights = copy_weights_to_cpu(model)
 
-                # Lưu ngay checkpoint tốt nhất để tránh mất khi ngắt
+                # LÆ°u ngay checkpoint tá»‘t nháº¥t Ä‘á»ƒ trÃ¡nh máº¥t khi ngáº¯t
                 save_checkpoint(
                     best_path,
                     {
@@ -446,7 +446,7 @@ def train_model(
                     }
                 )
 
-            # Dừng khi validation không cải thiện trong thời gian dài
+            # Dá»«ng khi validation khÃ´ng cáº£i thiá»‡n trong thá»i gian dÃ i
             elif (
                 current_epoch - best_epoch
                 >= config.early_stopping_patience
@@ -454,7 +454,7 @@ def train_model(
             ):
                 stop_training = True
 
-        # Ghi lịch sử huấn luyện để phân tích hội tụ
+        # Ghi lá»‹ch sá»­ huáº¥n luyá»‡n Ä‘á»ƒ phÃ¢n tÃ­ch há»™i tá»¥
         history.append({
             "epoch": current_epoch,
             "train_forecast_mse": forecast_sum / len(x_train),
@@ -463,7 +463,7 @@ def train_model(
             "best_val_mse": best_val,
         })
 
-        # Lưu trạng thái định kỳ hoặc ngay khi Early Stopping kích hoạt
+        # LÆ°u tráº¡ng thÃ¡i Ä‘á»‹nh ká»³ hoáº·c ngay khi Early Stopping kÃ­ch hoáº¡t
         if (
             current_epoch % config.checkpoint_every == 0
             or current_epoch == config.epochs
@@ -481,7 +481,7 @@ def train_model(
                 flush=True
             )
 
-        # Kết thúc training nhưng vẫn giữ lại checkpoint tốt nhất
+        # Káº¿t thÃºc training nhÆ°ng váº«n giá»¯ láº¡i checkpoint tá»‘t nháº¥t
         if stop_training:
             early_stopped = True
 
@@ -504,7 +504,7 @@ def train_model(
             print(f"[TIME LIMIT] {variant}: checkpoint epoch {current_epoch}", flush=True)
             break
 
-    # Lưu mô hình có validation MSE tốt nhất
+    # LÆ°u mÃ´ hÃ¬nh cÃ³ validation MSE tá»‘t nháº¥t
     if best_weights is not None:
         save_checkpoint(
             best_path,

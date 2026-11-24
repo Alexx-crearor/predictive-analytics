@@ -1,0 +1,33 @@
+{
+  "dataset": "Financial",
+  "dataset_key": "financial",
+  "model": "DLinear",
+  "patch": 100,
+  "horizon": 8,
+  "seed": 7,
+  "params": 1616,
+  "status": "completed",
+  "data_hash": "7e60ff4758e72adda50b72da0eb18aa75ac3d590b19d9642be9656c48a4a4089",
+  "config": {
+    "epochs": 4000,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "lambda_align": 0.0,
+    "ema_decay": 0.99,
+    "max_align_steps": 2,
+    "val_every": 100,
+    "checkpoint_every": 200,
+    "grad_clip": 1.0,
+    "early_stopping_patience": 800,
+    "early_stopping_min_delta": 1e-05,
+    "seed": 7
+  },
+  "target_epochs": 4000,
+  "completed_epochs": 1400,
+  "epochs_saved": 2600,
+  "early_stopped": true,
+  "best_epoch": 600,
+  "best_val_mse": 0.0011525535511292433,
+  "test_mse": 0.0006117673237587056,
+  "test_mae": 0.01644902695286072
+}

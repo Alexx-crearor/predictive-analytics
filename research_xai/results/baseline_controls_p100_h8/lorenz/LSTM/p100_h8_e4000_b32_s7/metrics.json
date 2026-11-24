@@ -1,0 +1,33 @@
+{
+  "dataset": "Lorenz",
+  "dataset_key": "lorenz",
+  "model": "LSTM",
+  "patch": 100,
+  "horizon": 8,
+  "seed": 7,
+  "params": 41112,
+  "status": "completed",
+  "data_hash": "f4ac596439cb04000a58a8f0899e5e2a79b45dee2a7c3ed5255a3bc903a7cf92",
+  "config": {
+    "epochs": 4000,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "lambda_align": 0.0,
+    "ema_decay": 0.99,
+    "max_align_steps": 2,
+    "val_every": 100,
+    "checkpoint_every": 200,
+    "grad_clip": 1.0,
+    "early_stopping_patience": 800,
+    "early_stopping_min_delta": 1e-05,
+    "seed": 7
+  },
+  "target_epochs": 4000,
+  "completed_epochs": 1100,
+  "epochs_saved": 2900,
+  "early_stopped": true,
+  "best_epoch": 300,
+  "best_val_mse": 5.917706399692556e-05,
+  "test_mse": 6.036601931953879e-05,
+  "test_mae": 0.006223280476108534
+}
